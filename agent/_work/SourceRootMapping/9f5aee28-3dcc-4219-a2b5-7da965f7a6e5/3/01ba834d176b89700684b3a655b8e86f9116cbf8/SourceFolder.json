@@ -1,0 +1,26 @@
+﻿{
+  "build_artifactstagingdirectory": "1\\a",
+  "agent_builddirectory": "1",
+  "collectionUrl": "https://dev.azure.com/sivareddyit24/",
+  "definitionName": "Siva01243.php-mysql-crud",
+  "repositoryTrackingInfo": [
+    {
+      "identifier": "self",
+      "repositoryType": "GitHub",
+      "repositoryUrl": "https://github.com/Siva01243/php-mysql-crud",
+      "sourcesDirectory": "1\\s\\php-mysql-crud"
+    }
+  ],
+  "fileFormatVersion": 3,
+  "lastRunOn": "01/07/2026 18:49:53 +05:30",
+  "repositoryType": "GitHub",
+  "lastMaintenanceAttemptedOn": "",
+  "lastMaintenanceCompletedOn": "",
+  "build_sourcesdirectory": "1\\s",
+  "common_testresultsdirectory": "1\\TestResults",
+  "collectionId": "9f5aee28-3dcc-4219-a2b5-7da965f7a6e5",
+  "definitionId": "3",
+  "hashKey": "01ba834d176b89700684b3a655b8e86f9116cbf8",
+  "repositoryUrl": "https://github.com/Siva01243/php-mysql-crud",
+  "system": "build"
+}

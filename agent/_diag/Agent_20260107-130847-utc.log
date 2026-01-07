@@ -1,0 +1,1109 @@
+﻿[2026-01-07 13:08:47Z INFO HostContext] HTTP Trace Environment Variable: ''
+[2026-01-07 13:08:47Z INFO HostContext] HTTP trace not enabled - environment variable not set or false
+[2026-01-07 13:08:47Z VERB AgentProcess] Entering MainAsync
+[2026-01-07 13:08:47Z INFO AgentProcess] Agent package win-x64.
+[2026-01-07 13:08:47Z INFO AgentProcess] Running on Windows (X64).
+[2026-01-07 13:08:47Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.26100.
+[2026-01-07 13:08:47Z VERB Terminal] Entering Initialize
+[2026-01-07 13:08:47Z INFO AgentProcess] Version: 4.266.2
+[2026-01-07 13:08:47Z INFO AgentProcess] Commit: 8bd04534a6d7a6a1874cd11de367aa39f25fc9b2
+[2026-01-07 13:08:47Z INFO AgentProcess] Culture: en-IN
+[2026-01-07 13:08:47Z INFO AgentProcess] UI Culture: en-US
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:47Z INFO AgentProcess] Validating directory permissions for: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:47Z VERB AgentProcess] Configuring Windows-specific settings and validating prerequisites
+[2026-01-07 13:08:47Z VERB PowerShellExeUtil] Entering Initialize
+[2026-01-07 13:08:47Z VERB PowerShellExeUtil] Entering GetPath
+[2026-01-07 13:08:47Z VERB PowerShellExeUtil] Candidate generation: '1'
+[2026-01-07 13:08:47Z VERB PowerShellExeUtil] Candidate generation: '3'
+[2026-01-07 13:08:47Z INFO PowerShellExeUtil] Generation: '1'
+[2026-01-07 13:08:47Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion' is null.
+[2026-01-07 13:08:47Z INFO PowerShellExeUtil] Unable to determine the Powershell engine version.  Possibly Powershell is not installed.
+[2026-01-07 13:08:47Z INFO PowerShellExeUtil] Generation: '3'
+[2026-01-07 13:08:47Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.26100.1882'
+[2026-01-07 13:08:47Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2026-01-07 13:08:47Z INFO AgentProcess] PowerShell validation successful - compatible version found
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework', value name 'InstallRoot': 'C:\Windows\Microsoft.NET\Framework64\'
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP' contains sub keys:
+[2026-01-07 13:08:47Z INFO AgentProcess]  'CDF'
+[2026-01-07 13:08:47Z INFO AgentProcess]  'v2.0.50727'
+[2026-01-07 13:08:47Z INFO AgentProcess]  'v3.0'
+[2026-01-07 13:08:47Z INFO AgentProcess]  'v3.5'
+[2026-01-07 13:08:47Z INFO AgentProcess]  'v4'
+[2026-01-07 13:08:47Z INFO AgentProcess]  'v4.0'
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version': '2.0.50727.4927'
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install': '1'
+[2026-01-07 13:08:47Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2026-01-07 13:08:47Z INFO AgentProcess] Found version: 2.0.50727
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version': '3.0.30729.4926'
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install': '1'
+[2026-01-07 13:08:47Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2026-01-07 13:08:47Z INFO AgentProcess] Found version: 3.0
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version': '3.5.30729.4926'
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install': '1'
+[2026-01-07 13:08:47Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2026-01-07 13:08:47Z INFO AgentProcess] Found version: 3.5
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name 'Version' is null.
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name '' is null.
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP\v4' contains sub keys:
+[2026-01-07 13:08:47Z INFO AgentProcess]  'Client'
+[2026-01-07 13:08:47Z INFO AgentProcess]  'Full'
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version': '4.8.09032'
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install': '1'
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release': '533320'
+[2026-01-07 13:08:47Z INFO AgentProcess] Type is System.Int32
+[2026-01-07 13:08:47Z INFO AgentProcess] Interpreted version: 4.7.0
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version': '4.8.09032'
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install': '1'
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release': '533320'
+[2026-01-07 13:08:47Z INFO AgentProcess] Type is System.Int32
+[2026-01-07 13:08:47Z INFO AgentProcess] Interpreted version: 4.7.0
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version' is null.
+[2026-01-07 13:08:47Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name '': 'deprecated'
+[2026-01-07 13:08:47Z INFO AgentProcess] Found 5 versions:
+[2026-01-07 13:08:47Z INFO AgentProcess]  2.0.50727
+[2026-01-07 13:08:47Z INFO AgentProcess]  3.0
+[2026-01-07 13:08:47Z INFO AgentProcess]  3.5
+[2026-01-07 13:08:47Z INFO AgentProcess]  4.7.0
+[2026-01-07 13:08:47Z INFO AgentProcess]  4.7.0
+[2026-01-07 13:08:47Z INFO AgentProcess] Testing for min NET Framework version: '4.5'
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:47Z VERB PromptManager] Entering Initialize
+[2026-01-07 13:08:47Z INFO HostContext] Setting up value for origin: Configure.Password
+[2026-01-07 13:08:47Z INFO HostContext] Value is empty.
+[2026-01-07 13:08:47Z INFO HostContext] Setting up value for origin: Configure.ProxyPassword
+[2026-01-07 13:08:47Z INFO HostContext] Value is empty.
+[2026-01-07 13:08:47Z INFO HostContext] Setting up value for origin: Configure.SslClientCert
+[2026-01-07 13:08:47Z INFO HostContext] Value is empty.
+[2026-01-07 13:08:47Z INFO HostContext] Setting up value for origin: Configure.Token
+[2026-01-07 13:08:47Z INFO HostContext] Value is empty.
+[2026-01-07 13:08:47Z INFO HostContext] Setting up value for origin: Configure.WindowsLogonPassword
+[2026-01-07 13:08:47Z INFO HostContext] Value is empty.
+[2026-01-07 13:08:47Z INFO HostContext] Setting up value for origin: Configure.TenantId
+[2026-01-07 13:08:47Z INFO HostContext] Value is empty.
+[2026-01-07 13:08:47Z INFO HostContext] Setting up value for origin: Configure.ClientId
+[2026-01-07 13:08:47Z INFO HostContext] Value is empty.
+[2026-01-07 13:08:47Z INFO HostContext] Setting up value for origin: Configure.ClientSecret
+[2026-01-07 13:08:47Z INFO HostContext] Value is empty.
+[2026-01-07 13:08:47Z INFO CommandSettings] Configure {
+  "AcceptTeeEula": false,
+  "AddDeploymentGroupTags": false,
+  "AddEnvironmentVirtualMachineResourceTags": false,
+  "AddMachineGroupTags": false,
+  "AlwaysExtractTask": false,
+  "Agent": null,
+  "CollectionName": null,
+  "DeploymentGroup": false,
+  "DeploymentGroupName": null,
+  "DeploymentGroupTags": null,
+  "DeploymentPool": false,
+  "DeploymentPoolName": null,
+  "EnableServiceSidTypeUnrestricted": false,
+  "EnvironmentVMResource": false,
+  "EnvironmentName": null,
+  "EnvironmentVMResourceTags": null,
+  "GitUseSChannel": false,
+  "DisableLogUploads": false,
+  "ReStreamLogsToFiles": false,
+  "MachineGroup": false,
+  "MachineGroupName": null,
+  "MachineGroupTags": null,
+  "MonitorSocketAddress": null,
+  "NotificationPipeName": null,
+  "NotificationSocketAddress": null,
+  "NoRestart": false,
+  "OverwriteAutoLogon": false,
+  "Pool": null,
+  "ProjectName": null,
+  "ProxyPassword": null,
+  "ProxyUserName": null,
+  "ProxyUrl": null,
+  "UseBasicAuthForProxy": false,
+  "Replace": false,
+  "RunAsAutoLogon": false,
+  "RunAsService": false,
+  "RunOnce": false,
+  "PreventServiceStart": false,
+  "SslCACert": null,
+  "SslClientCert": null,
+  "SslClientCertArchive": null,
+  "SslClientCertKey": null,
+  "SslClientCertPassword": null,
+  "SslSkipCertValidation": false,
+  "Url": null,
+  "WindowsLogonAccount": null,
+  "WindowsLogonPassword": null,
+  "Work": null,
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "ClientId": null,
+  "TenantId": null,
+  "ClientSecret": null,
+  "Help": false,
+  "Version": false
+}
+[2026-01-07 13:08:47Z INFO AgentProcess] Command line arguments parsed successfully - ready for command execution
+[2026-01-07 13:08:47Z VERB Agent] Entering Initialize
+[2026-01-07 13:08:47Z VERB AgentProcess] Delegating command execution to Agent service
+[2026-01-07 13:08:47Z VERB Agent] Entering ExecuteCommand
+[2026-01-07 13:08:47Z VERB Agent] Initializing core services...
+[2026-01-07 13:08:47Z VERB VstsAgentWebProxy] Entering Initialize
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:47Z INFO HostContext] Well known config file 'Proxy': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.proxy'
+[2026-01-07 13:08:47Z VERB VstsAgentWebProxy] Proxy address: 
+[2026-01-07 13:08:47Z INFO VstsAgentWebProxy] No proxy setting found.
+[2026-01-07 13:08:47Z VERB AgentCertificateManager] Entering Initialize
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:47Z INFO HostContext] Well known config file 'Certificates': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.certificates'
+[2026-01-07 13:08:47Z INFO AgentCertificateManager] No certificate setting found.
+[2026-01-07 13:08:47Z VERB ConfigurationManager] Entering Initialize
+[2026-01-07 13:08:47Z VERB ConfigurationManager] Creating _store
+[2026-01-07 13:08:47Z VERB ConfigurationStore] Entering Initialize
+[2026-01-07 13:08:47Z INFO ConfigurationStore] currentAssemblyLocation: {0}
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:47Z INFO ConfigurationStore] binPath: {0}
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:47Z INFO ConfigurationStore] RootFolder: {0}
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:47Z INFO HostContext] Well known config file 'Agent': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.agent'
+[2026-01-07 13:08:47Z INFO ConfigurationStore] ConfigFilePath: {0}
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:47Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials'
+[2026-01-07 13:08:47Z INFO ConfigurationStore] CredFilePath: {0}
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:47Z INFO HostContext] Well known config file 'Service': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.service'
+[2026-01-07 13:08:47Z INFO ConfigurationStore] ServiceConfigFilePath: {0}
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:47Z INFO HostContext] Well known config file 'Autologon': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.autologon'
+[2026-01-07 13:08:47Z INFO ConfigurationStore] AutoLogonSettingsFilePath: {0}
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:47Z INFO HostContext] Well known config file 'Options': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.options'
+[2026-01-07 13:08:47Z INFO ConfigurationStore] RuntimeOptionsFilePath: {0}
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:47Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.setup_info'
+[2026-01-07 13:08:47Z INFO ConfigurationStore] SetupInfoFilePath: {0}
+[2026-01-07 13:08:47Z VERB ConfigurationManager] store created
+[2026-01-07 13:08:47Z VERB LocationServer] Entering Initialize
+[2026-01-07 13:08:47Z INFO Terminal] WRITE LINE: 
+  ___                      ______ _            _ _
+ / _ \                     | ___ (_)          | (_)
+/ /_\ \_____   _ _ __ ___  | |_/ /_ _ __   ___| |_ _ __   ___  ___
+|  _  |_  / | | | '__/ _ \ |  __/| | '_ \ / _ \ | | '_ \ / _ \/ __|
+| | | |/ /| |_| | | |  __/ | |   | | |_) |  __/ | | | | |  __/\__ \
+\_| |_/___|\__,_|_|  \___| \_|   |_| .__/ \___|_|_|_| |_|\___||___/
+                                   | |
+        agent v4.266.2             |_|          (commit 8bd0453)
+
+[2026-01-07 13:08:47Z INFO ConfigurationManager] CheckAgentRootDirectorySecure
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:47Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:47Z INFO ConfigurationManager] Agent configuration initiated - OS: Windows, Architecture: X64, AgentVersion: 4.266.2
+[2026-01-07 13:08:47Z INFO ConfigurationStore] IsConfigured()
+[2026-01-07 13:08:47Z INFO ConfigurationStore] IsConfigured: False
+[2026-01-07 13:08:47Z INFO ConfigurationManager] Is configured: False
+[2026-01-07 13:08:47Z INFO CommandSettings] Flag 'usebasicauthforproxy': 'False'
+[2026-01-07 13:08:47Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2026-01-07 13:08:47Z INFO ConfigurationManager] Testing for min NET Framework version: '4.6'
+[2026-01-07 13:08:47Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2026-01-07 13:08:47Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2026-01-07 13:08:47Z INFO CommandSettings] Flag 'environment': 'False'
+[2026-01-07 13:08:47Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2026-01-07 13:08:47Z INFO CommandSettings] Flag 'environment': 'False'
+[2026-01-07 13:08:47Z INFO ConfigurationManager] Agent type determined from command - Type: 'BuildReleasesAgentConfiguration', IsDeploymentGroup: False, IsEnvironmentVM: False
+[2026-01-07 13:08:47Z VERB ExtensionManager] Entering Initialize
+[2026-01-07 13:08:47Z INFO ExtensionManager] Getting extensions for interface: '{0}'
+[2026-01-07 13:08:47Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2026-01-07 13:08:47Z VERB BuildReleasesAgentConfigProvider] Entering Initialize
+[2026-01-07 13:08:47Z VERB AgentServer] Entering Initialize
+[2026-01-07 13:08:47Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2026-01-07 13:08:47Z VERB DeploymentGroupAgentConfigProvider] Entering Initialize
+[2026-01-07 13:08:47Z VERB DeploymentGroupServer] Entering Initialize
+[2026-01-07 13:08:47Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2026-01-07 13:08:47Z VERB SharedDeploymentAgentConfigProvider] Entering Initialize
+[2026-01-07 13:08:47Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2026-01-07 13:08:47Z VERB EnvironmentVMResourceConfigProvider] Entering Initialize
+[2026-01-07 13:08:47Z VERB EnvironmentsServer] Entering Initialize
+[2026-01-07 13:08:47Z INFO ConfigurationManager] Configuration provider resolved - Provider: 'BuildReleasesAgentConfigProvider' for agent type: 'BuildReleasesAgentConfiguration'
+[2026-01-07 13:08:47Z INFO Terminal] WRITE LINE: 
+[2026-01-07 13:08:47Z INFO Terminal] WRITE LINE: >> Connect:
+[2026-01-07 13:08:47Z INFO Terminal] WRITE LINE: 
+[2026-01-07 13:08:47Z INFO CommandSettings] Arg 'url': ''
+[2026-01-07 13:08:47Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 13:08:47Z INFO PromptManager] ReadValue
+[2026-01-07 13:08:47Z INFO Terminal] WRITE: Enter server URL > 
+[2026-01-07 13:08:47Z INFO Terminal] READ LINE
+[2026-01-07 13:09:00Z INFO Terminal] Read value: 'https://dev.azure.com/sivareddyit24'
+[2026-01-07 13:09:00Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 13:09:00Z INFO ConfigurationManager] Server URL configured - URL: 'https://dev.azure.com/sivareddyit24', IsUnattended: False
+[2026-01-07 13:09:00Z INFO ConfigurationManager] GetCredentialProvider
+[2026-01-07 13:09:00Z VERB CredentialManager] Entering Initialize
+[2026-01-07 13:09:00Z INFO CommandSettings] Arg 'auth': ''
+[2026-01-07 13:09:00Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 13:09:00Z INFO PromptManager] ReadValue
+[2026-01-07 13:09:00Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2026-01-07 13:09:00Z INFO Terminal] READ LINE
+[2026-01-07 13:09:03Z INFO Terminal] Read value: 'PAT'
+[2026-01-07 13:09:03Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2026-01-07 13:09:03Z INFO CredentialManager] GetCredentialProvider
+[2026-01-07 13:09:03Z INFO CredentialManager] Creating type PAT
+[2026-01-07 13:09:03Z INFO CredentialManager] Creating credential type: PAT
+[2026-01-07 13:09:03Z VERB CredentialManager] Created credential type
+[2026-01-07 13:09:03Z INFO PersonalAccessToken] EnsureCredential
+[2026-01-07 13:09:03Z INFO CommandSettings] Arg 'token': ''
+[2026-01-07 13:09:03Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 13:09:03Z INFO PromptManager] ReadValue
+[2026-01-07 13:09:03Z INFO Terminal] WRITE: Enter personal access token > 
+[2026-01-07 13:09:03Z INFO Terminal] READ SECRET
+[2026-01-07 13:09:08Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2026-01-07 13:09:08Z INFO Terminal] Read value: '***'
+[2026-01-07 13:09:08Z INFO ConfigurationManager] cred retrieved
+[2026-01-07 13:09:08Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2026-01-07 13:09:08Z INFO PersonalAccessToken] GetVssCredentials
+[2026-01-07 13:09:08Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2026-01-07 13:09:08Z INFO PersonalAccessToken] cred created
+[2026-01-07 13:09:08Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 13:09:08Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 13:09:08Z VERB VisualStudioServices] Created Basic issued token provider instance 18475057 (Basic)
+[2026-01-07 13:09:09Z VERB VisualStudioServices] Basic issued token provider instance 18475057 validated token instance 50389425
+[2026-01-07 13:09:09Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 13:09:09Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 13:09:09Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 13:09:09Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 13:09:09Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 13:09:09Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 13:09:09Z INFO ConfigurationManager] Server type detection completed - IsHostedServer: True
+[2026-01-07 13:09:09Z INFO PersonalAccessToken] GetVssCredentials
+[2026-01-07 13:09:09Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2026-01-07 13:09:09Z INFO PersonalAccessToken] cred created
+[2026-01-07 13:09:09Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2026-01-07 13:09:09Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2026-01-07 13:09:09Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 13:09:09Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 13:09:09Z VERB VisualStudioServices] Created Basic issued token provider instance 34463813 (Basic)
+[2026-01-07 13:09:10Z VERB VisualStudioServices] Basic issued token provider instance 34463813 validated token instance 7367717
+[2026-01-07 13:09:10Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 13:09:10Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 13:09:10Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2026-01-07 13:09:10Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 13:09:10Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 13:09:10Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2026-01-07 13:09:10Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 13:09:10Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 13:09:10Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 13:09:10Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 13:09:10Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 13:09:10Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 13:09:10Z INFO ConfigurationManager] Test Connection complete.
+[2026-01-07 13:09:10Z VERB RSAEncryptedFileKeyManager] Entering Initialize
+[2026-01-07 13:09:10Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:09:10Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:09:10Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials_rsaparams'
+[2026-01-07 13:09:10Z INFO RSAEncryptedFileKeyManager] Creating new RSA key using 2048-bit key length
+[2026-01-07 13:09:10Z INFO RSAEncryptedFileKeyManager] Successfully saved RSA key parameters to file C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials_rsaparams
+[2026-01-07 13:09:10Z INFO Terminal] WRITE LINE: 
+[2026-01-07 13:09:10Z INFO Terminal] WRITE LINE: >> Register Agent:
+[2026-01-07 13:09:10Z INFO Terminal] WRITE LINE: 
+[2026-01-07 13:09:10Z INFO CommandSettings] Arg 'pool': ''
+[2026-01-07 13:09:10Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 13:09:10Z INFO PromptManager] ReadValue
+[2026-01-07 13:09:10Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2026-01-07 13:09:10Z INFO Terminal] READ LINE
+[2026-01-07 13:09:18Z INFO Terminal] Read value: 'self-hosted'
+[2026-01-07 13:09:18Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools
+[2026-01-07 13:09:18Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools with status code 200
+[2026-01-07 13:09:18Z INFO BuildReleasesAgentConfigProvider] Found pool self-hosted with id 10 and name self-hosted
+[2026-01-07 13:09:18Z INFO ConfigurationManager] Pool resolution successful - PoolId: 10, PoolName: 'self-hosted'
+[2026-01-07 13:09:18Z INFO CommandSettings] Arg 'agent': ''
+[2026-01-07 13:09:18Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 13:09:18Z INFO PromptManager] ReadValue
+[2026-01-07 13:09:18Z INFO Terminal] WRITE: Enter agent name (press enter for SIVAREDDY) > 
+[2026-01-07 13:09:18Z INFO Terminal] READ LINE
+[2026-01-07 13:09:25Z INFO Terminal] Read value: 'agent-1'
+[2026-01-07 13:09:25Z INFO ConfigurationManager] Agent registration attempt - Name: 'agent-1', Pool: 'self-hosted' (ID: 10)
+[2026-01-07 13:09:25Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2026-01-07 13:09:25Z VERB CapabilitiesManager] Entering Initialize
+[2026-01-07 13:09:25Z VERB CapabilitiesManager] Entering GetCapabilitiesAsync
+[2026-01-07 13:09:25Z INFO ExtensionManager] Getting extensions for interface: '{0}'
+[2026-01-07 13:09:25Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2026-01-07 13:09:25Z VERB AgentCapabilitiesProvider] Entering Initialize
+[2026-01-07 13:09:25Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2026-01-07 13:09:25Z VERB EnvironmentCapabilitiesProvider] Entering Initialize
+[2026-01-07 13:09:25Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.PowerShellCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2026-01-07 13:09:25Z VERB PowerShellCapabilitiesProvider] Entering Initialize
+[2026-01-07 13:09:25Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2026-01-07 13:09:25Z VERB UserCapabilitiesProvider] Entering Initialize
+[2026-01-07 13:09:25Z VERB EnvironmentCapabilitiesProvider] Entering GetCapabilitiesAsync
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'ALLUSERSPROFILE': 'C:\ProgramData'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'APPDATA': 'C:\Users\G.SIVAREDDY\AppData\Roaming'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'CLASSPATH': '"C:\Program Files\Java\jdk1.8.0_321"'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramFiles': 'C:\Program Files\Common Files'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramFiles(x86)': 'C:\Program Files (x86)\Common Files'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramW6432': 'C:\Program Files\Common Files'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'COMPUTERNAME': 'SIVAREDDY'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'ComSpec': 'C:\WINDOWS\system32\cmd.exe'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'DriverData': 'C:\Windows\System32\Drivers\DriverData'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEDRIVE': 'C:'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEPATH': '\Users\G.SIVAREDDY'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'JAVA_HOME': '"C:\Program Files\Java\jdk1.8.0_321"'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'java-home': 'C:\Program Files\Java\jdk-11.0.14'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'LOCALAPPDATA': 'C:\Users\G.SIVAREDDY\AppData\Local'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGONSERVER': '\\SIVAREDDY'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'NUMBER_OF_PROCESSORS': '8'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'OneDrive': 'C:\Users\G.SIVAREDDY\OneDrive'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'OneDriveConsumer': 'C:\Users\G.SIVAREDDY\OneDrive'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'OnlineServices': 'Online Services'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'OS': 'Windows_NT'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'Path': 'C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\users\G.SIVAREDDY\product\21c\dbhomeXE\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oracle\product\10.2.0\db_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.14\bin;C:\Program Files\HP\HP One Agent;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_321;C:\Users\G.SIVAREDDY\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\G.SIVAREDDY\AppData\Roaming\npm\node_modules\@angular\cli\bin;C:\Users\G.SIVAREDDY\AppData\Roaming\npm;C:\Users\G.SIVAREDDY\AppData\Local\Microsoft\WindowsApps'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'PERL5LIB': 'C:\oracle\product\10.2.0\db_1\perl\5.8.3\lib\MSWin32-x86;C:\oracle\product\10.2.0\db_1\perl\5.8.3\lib;C:\oracle\product\10.2.0\db_1\perl\5.8.3\lib\MSWin32-x86;C:\oracle\product\10.2.0\db_1\perl\site\5.8.3;C:\oracle\product\10.2.0\db_1\perl\site\5.8.3\lib;C:\oracle\product\10.2.0\db_1\sysman\admin\scripts;'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'platformcode': 'KV'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_ARCHITECTURE': 'AMD64'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 140 Stepping 1, GenuineIntel'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_LEVEL': '6'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_REVISION': '8c01'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramData': 'C:\ProgramData'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramFiles': 'C:\Program Files'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramFiles(x86)': 'C:\Program Files (x86)'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramW6432': 'C:\Program Files'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'PROMPT': '$P$G'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Skipping: 'PSModulePath'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'PUBLIC': 'C:\Users\Public'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'RegionCode': 'APJ'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'SystemDrive': 'C:'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'SystemRoot': 'C:\WINDOWS'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'TEMP': 'C:\Users\G53D7~1.SIV\AppData\Local\Temp'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'TMP': 'C:\Users\G53D7~1.SIV\AppData\Local\Temp'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'USERDOMAIN': 'SIVAREDDY'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'USERDOMAIN_ROAMINGPROFILE': 'SIVAREDDY'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'USERNAME': 'G.SIVAREDDY'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'USERPROFILE': 'C:\Users\G.SIVAREDDY'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'VERBOSE_ARG': ''SilentlyContinue''
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'windir': 'C:\WINDOWS'
+[2026-01-07 13:09:25Z INFO EnvironmentCapabilitiesProvider] Adding 'ZES_ENABLE_SYSMAN': '1'
+[2026-01-07 13:09:25Z VERB PowerShellCapabilitiesProvider] Entering GetCapabilitiesAsync
+[2026-01-07 13:09:25Z VERB PowerShellExeUtil] Entering GetPath
+[2026-01-07 13:09:25Z VERB PowerShellExeUtil] Candidate generation: '1'
+[2026-01-07 13:09:25Z VERB PowerShellExeUtil] Candidate generation: '3'
+[2026-01-07 13:09:25Z INFO PowerShellExeUtil] Generation: '1'
+[2026-01-07 13:09:25Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion' is null.
+[2026-01-07 13:09:25Z INFO PowerShellExeUtil] Unable to determine the Powershell engine version.  Possibly Powershell is not installed.
+[2026-01-07 13:09:25Z INFO PowerShellExeUtil] Generation: '3'
+[2026-01-07 13:09:25Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.26100.1882'
+[2026-01-07 13:09:25Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2026-01-07 13:09:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:09:25Z VERB ProcessInvokerWrapper] Entering Initialize
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper] Starting process:
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy RemoteSigned -Command ". 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-Capabilities.ps1'"'
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell'
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2026-01-07 13:09:25Z INFO ProcessInvokerWrapper] Process started, waiting for process exit.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-AndroidSdkCapabilities.ps1
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'CurrentUser', view 'Default', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-AntCapabilities.ps1
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: 'env:ANT_HOME'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-ApplicationCapabilities.ps1
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'npm'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=npm]C:\Program Files\nodejs\npm.cmd
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] Adding 'npm': 'C:\Program Files\nodejs\npm.cmd'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'gulp'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'node'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=node.js]C:\Program Files\nodejs\node.exe
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] Adding 'node.js': 'C:\Program Files\nodejs\node.exe'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'bower'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'grunt'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'svn'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'cmake'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'docker'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-AzureGuestAgentCapabilities.ps1
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-AzurePowerShellCapabilities.ps1
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Env:PSModulePath: 'C:\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Attempting to find the module 'Az.Accounts' from the module path.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Attempting to find the module 'AzureRM' from the module path.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\AzureRM.Profile\AzureRM.Profile.psd1
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\AzureRM.Profile\AzureRM.Profile.psd1
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Attempting to find the module 'Azure' from the module path.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\Azure\Azure.psd1
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files\Microsoft SDKs\Azure\PowerShell\ServiceManagement\Azure\Azure.psd1
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-ChefCapabilities.ps1
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-DotNetFrameworkCapabilities.ps1
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\.NETFramework', value name 'InstallRoot'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'CDF'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v2.0.50727'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.0'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.5'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4.0'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '2.0.50727.4927'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install'
+[2026-01-07 13:09:26Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 2.0.50727.4927
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework\v2.0.50727'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_2.0]C:\Windows\Microsoft.NET\Framework\v2.0.50727
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_2.0': 'C:\Windows\Microsoft.NET\Framework\v2.0.50727'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.0.30729.4926'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.0.30729.4926
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework\v3.0'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.0]C:\Windows\Microsoft.NET\Framework\v3.0
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.0': 'C:\Windows\Microsoft.NET\Framework\v3.0'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.5.30729.4926'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.5.30729.4926
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework\v3.5'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.5]C:\Windows\Microsoft.NET\Framework\v3.5
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.5': 'C:\Windows\Microsoft.NET\Framework\v3.5'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name 'Version'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name ''
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Client'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Full'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.09032'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '533320'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.09032'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '533320'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name ''
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'deprecated'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\.NETFramework', value name 'InstallRoot'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'CDF'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v2.0.50727'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.0'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v3.5'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4.0'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '2.0.50727.4927'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 2.0.50727.4927
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_2.0_x64]C:\Windows\Microsoft.NET\Framework64\v2.0.50727
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_2.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.0.30729.4926'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.0.30729.4926
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.0_x64]C:\Windows\Microsoft.NET\Framework64\v3.0
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '3.5.30729.4926'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 3.5.30729.4926
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Testing container: 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exists.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_3.5_x64]C:\Windows\Microsoft.NET\Framework64\v3.5
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_3.5_x64': 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name 'Version'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name ''
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Client'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Full'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.09032'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '533320'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.09032'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '533320'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name ''
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'deprecated'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-JavaCapabilities.ps1
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.6', value name 'JavaHome'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.7', value name 'JavaHome'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.8', value name 'JavaHome'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files (x86)\Java\jre1.8.0_341'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=java_8]C:\Program Files (x86)\Java\jre1.8.0_341
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'java_8': 'C:\Program Files (x86)\Java\jre1.8.0_341'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.6', value name 'JavaHome'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.7', value name 'JavaHome'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.8', value name 'JavaHome'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   '1.8'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   '1.8.0_341'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 1
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 1 9
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to get last available version for capability:  java_ + <version> + 
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 0 9
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to set capability for first found subkey:  1.8.0_341
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\JRE'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  java_ + <version> + 
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  java_ + <version> + _x64
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\JRE'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  java_ + <version> + _x64
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=java]C:\Program Files (x86)\Java\jre1.8.0_341
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'java': 'C:\Program Files (x86)\Java\jre1.8.0_341'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.6', value name 'JavaHome'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.7', value name 'JavaHome'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.8', value name 'JavaHome'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.6', value name 'JavaHome'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.7', value name 'JavaHome'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.8', value name 'JavaHome'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files\Java\jdk1.8.0_321'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=jdk_8_x64]C:\Program Files\Java\jdk1.8.0_321
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'jdk_8_x64': 'C:\Program Files\Java\jdk1.8.0_321'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  jdk_ + <version> + 
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\JDK'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  jdk_ + <version> + 
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   '1.8'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   '1.8.0_321'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   '1.8.0_91'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 1
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 1 9
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to get last available version for capability:  jdk_ + <version> + _x64
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 0 9
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to set capability for first found subkey:  1.8.0_91
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\JDK'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT:   '11.0.14'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 11
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: 11 9
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\JDK\11.0.14', value name 'JavaHome'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files\Java\jdk-11.0.14'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=jdk_11_x64]C:\Program Files\Java\jdk-11.0.14
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'jdk_11_x64': 'C:\Program Files\Java\jdk-11.0.14'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=jdk]C:\Program Files\Java\jdk-11.0.14
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'jdk': 'C:\Program Files\Java\jdk-11.0.14'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-MavenCapabilities.ps1
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: env:JAVA_HOME
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: M2_HOME not set. Checking in PATH
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'mvn'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-MSBuildCapabilities.ps1
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\2.0', value name 'MSBuildToolsPath'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v2.0.50727\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_2.0]C:\Windows\Microsoft.NET\Framework\v2.0.50727\
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_2.0': 'C:\Windows\Microsoft.NET\Framework\v2.0.50727\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\3.5', value name 'MSBuildToolsPath'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v3.5\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_3.5]C:\Windows\Microsoft.NET\Framework\v3.5\
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_3.5': 'C:\Windows\Microsoft.NET\Framework\v3.5\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\4.0', value name 'MSBuildToolsPath'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_4.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_4.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\12.0', value name 'MSBuildToolsPath'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\14.0', value name 'MSBuildToolsPath'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest  -format json
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild]C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 17 setup instance.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -latest  -format json
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 17 setup instance.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild]C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 18 setup instance.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[18.0,19.0)' -latest  -format json
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 18 setup instance.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[18.0,19.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild]C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\2.0', value name 'MSBuildToolsPath'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_2.0_x64]C:\Windows\Microsoft.NET\Framework64\v2.0.50727\
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_2.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\3.5', value name 'MSBuildToolsPath'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v3.5\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_3.5_x64]C:\Windows\Microsoft.NET\Framework64\v3.5\
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_3.5_x64': 'C:\Windows\Microsoft.NET\Framework64\v3.5\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\4.0', value name 'MSBuildToolsPath'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_4.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_4.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\12.0', value name 'MSBuildToolsPath'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\14.0', value name 'MSBuildToolsPath'
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2026-01-07 13:09:27Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 17 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 17 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 18 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[18.0,19.0)' -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 18 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[18.0,19.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-PowerShellCapabilities.ps1
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=PowerShell]5.1.26100.7462
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] Adding 'PowerShell': '5.1.26100.7462'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-ScvmmAdminConsoleCapabilities.ps1
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\Microsoft System Center Virtual Machine Manager Administrator Console\Setup', value name 'InstallPath'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft System Center Virtual Machine Manager Administrator Console\Setup', value name 'InstallPath'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-SqlPackageCapabilities.ps1
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SQL Server'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\Microsoft SQL Server'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SQL Server\Data-Tier Application Framework'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\Microsoft SQL Server\Data-Tier Application Framework'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT:   '14.0'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT:   '7.1'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT:   '8.0'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\14.0', value name 'InstallDir'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\8.0', value name 'InstallDir'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\7.1', value name 'InstallDir'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\VisualStudio'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT:   '14.0'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT:   '8.0'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\VisualStudio\14.0', value name 'InstallDir'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\VisualStudio\8.0', value name 'InstallDir'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-VisualStudioCapabilities.ps1
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\10.0', value name 'ShellFolder'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\10.0', value name 'InstallDir'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\11.0', value name 'ShellFolder'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\11.0', value name 'InstallDir'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\12.0', value name 'ShellFolder'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\14.0', value name 'ShellFolder'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\15.0', value name 'ShellFolder'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\16.0', value name 'ShellFolder'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 17 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 17 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\17.0', value name 'ShellFolder'
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 18 setup instance.
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[18.0,19.0)' -latest  -format json
+[2026-01-07 13:09:28Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 18 setup instance.
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[18.0,19.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\18.0', value name 'ShellFolder'
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-WindowsKitCapabilities.ps1
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Windows Kits\Installed Roots', value name ''
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-WindowsSdkCapabilities.ps1
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SDKs\Windows'
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\Add-XamarinAndroidCapabilities.ps1
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Novell\Mono for Android', value name 'InstalledVersion'
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 17 setup instance.
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -latest  -format json
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 17 setup instance.
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest  -format json
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: & C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2026-01-07 13:09:29Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2026-01-07 13:09:29Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-01-07 13:09:29Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-01-07 13:09:29Z INFO ProcessInvokerWrapper] Exited process
+[2026-01-07 13:09:29Z INFO ProcessInvokerWrapper] Finished process and elapsed time 00:00:03.6683661.
+[2026-01-07 13:09:29Z VERB UserCapabilitiesProvider] Entering GetCapabilitiesAsync
+[2026-01-07 13:09:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:09:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:09:29Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'agent-1'
+[2026-01-07 13:09:29Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Windows_NT'
+[2026-01-07 13:09:29Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2026-01-07 13:09:29Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentMajorVersionNumber': '10'
+[2026-01-07 13:09:29Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentMinorVersionNumber': '0'
+[2026-01-07 13:09:29Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentBuildNumber': '26100'
+[2026-01-07 13:09:29Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSVersion': '10.0.26100'
+[2026-01-07 13:09:29Z INFO AgentCapabilitiesProvider] Adding 'Cmd': 'C:\WINDOWS\system32\cmd.exe'
+[2026-01-07 13:09:29Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2026-01-07 13:09:29Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '4.266.2'
+[2026-01-07 13:09:29Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'SIVAREDDY'
+[2026-01-07 13:09:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:09:29Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:09:29Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:09:29Z INFO ConfigurationManager] System capabilities scan completed - Found 80 capabilities: [ALLUSERSPROFILE=C:\ProgramData, APPDATA=C:\Users\G.SIVAREDDY\AppData\Roaming, CLASSPATH="C:\Program Files\Java\jdk1.8.0_321", CommonProgramFiles=C:\Program Files\Common Files, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files...]
+[2026-01-07 13:09:29Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2026-01-07 13:09:29Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools/10/agents
+[2026-01-07 13:09:29Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools/10/agents with status code 200
+[2026-01-07 13:09:29Z VERB BuildReleasesAgentConfigProvider] Returns 0 agents
+[2026-01-07 13:09:29Z INFO ConfigurationManager] No existing agent found - creating new agent registration
+[2026-01-07 13:09:29Z VERB VisualStudioServices] Started POST request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools/10/agents
+[2026-01-07 13:09:30Z VERB VisualStudioServices] Finished POST request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools/10/agents with status code 200
+[2026-01-07 13:09:30Z INFO Terminal] WRITE LINE: Successfully added the agent
+[2026-01-07 13:09:30Z INFO ConfigurationManager] Agent server url resolve by server: 'https://dev.azure.com/sivareddyit24/'.
+[2026-01-07 13:09:30Z INFO ConfigurationStore] Saving OAuth credential @ C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials
+[2026-01-07 13:09:30Z INFO ConfigurationStore] Credentials Saved.
+[2026-01-07 13:09:30Z INFO Terminal] WRITE LINE: Testing agent connection.
+[2026-01-07 13:09:30Z INFO ConfigurationStore] HasCredentials()
+[2026-01-07 13:09:30Z INFO ConfigurationStore] stored True
+[2026-01-07 13:09:30Z INFO CredentialManager] GetCredentialProvider
+[2026-01-07 13:09:30Z INFO CredentialManager] Creating type OAuth
+[2026-01-07 13:09:30Z INFO CredentialManager] Creating credential type: OAuth
+[2026-01-07 13:09:30Z VERB CredentialManager] Created credential type
+[2026-01-07 13:09:30Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials_rsaparams
+[2026-01-07 13:09:30Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2026-01-07 13:09:30Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 13:09:30Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 13:09:30Z VERB VisualStudioServices] Created OAuth issued token provider instance 61013805 (Bearer)
+[2026-01-07 13:09:31Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodcin2.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 3bdcd2c9-ba89-4d87-a6ac-7007ab89d301
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 782af18e-6cbd-4c6c-ba53-da940e8cf1fc
+X-TFS-Session: 4ca89412-aaff-4138-be37-e1d852eb7625
+X-VSS-E2EID: 08f8956e-b491-4e99-9d10-b88fd38213f9
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcin2.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/sivareddyit24/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/sivareddyit24/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fsivareddyit24%2F_apis%2FconnectionData%3FconnectOptions%3D0%26lastChangeId%3D61194267%26lastChangeId64%3D61194267&redirect=1&hid=9f5aee28-3dcc-4219-a2b5-7da965f7a6e5&context=eyJodCI6MiwiaGlkIjoiMTljYjRkOGUtNGUxNC00ODhiLTkwMzMtMWFhYWQ0ZmE0MmQwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90&lltid=ea26b1ab-dcb8-4d1c-8350-83891987789d#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: C35C9B670FE949AB9B43FFE2B8478425 Ref B: MAA201060516029 Ref C: 2026-01-07T13:09:30Z
+Date: Wed, 07 Jan 2026 13:09:30 GMT
+
+[2026-01-07 13:09:31Z VERB VisualStudioServices] Started authentication
+[2026-01-07 13:09:31Z VERB VisualStudioServices] OAuth issued token provider instance 61013805 is acquiring a token
+[2026-01-07 13:09:31Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials_rsaparams
+[2026-01-07 13:09:31Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials_rsaparams
+[2026-01-07 13:09:32Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2026-01-07 13:09:32Z VERB VisualStudioServices] OAuth issued token provider instance 61013805 acquired new token instance 66955063
+[2026-01-07 13:09:32Z VERB VisualStudioServices] Finished authentication
+[2026-01-07 13:09:32Z VERB VisualStudioServices] OAuth issued token provider instance 61013805 validated token instance 66955063
+[2026-01-07 13:09:32Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 13:09:32Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 13:09:32Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2026-01-07 13:09:32Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 13:09:32Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 13:09:32Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2026-01-07 13:09:32Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 13:09:32Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 13:09:32Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 13:09:32Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 13:09:32Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 13:09:32Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 13:09:32Z INFO CommandSettings] Arg 'work': ''
+[2026-01-07 13:09:32Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 13:09:32Z INFO PromptManager] ReadValue
+[2026-01-07 13:09:32Z INFO Terminal] WRITE: Enter work folder (press enter for _work) > 
+[2026-01-07 13:09:32Z INFO Terminal] READ LINE
+[2026-01-07 13:09:38Z INFO Terminal] Read value: '_work'
+[2026-01-07 13:09:38Z INFO CommandSettings] Flag 'disableloguploads': 'False'
+[2026-01-07 13:09:38Z INFO CommandSettings] Flag 'restreamlogstofiles': 'False'
+[2026-01-07 13:09:38Z INFO CommandSettings] Flag 'alwaysextracttask': 'False'
+[2026-01-07 13:09:38Z INFO ConfigurationStore] Saving agent settings.
+[2026-01-07 13:09:38Z INFO ConfigurationStore] Settings Saved.
+[2026-01-07 13:09:38Z INFO Terminal] WRITE LINE: 2026-01-07 13:09:38Z: Settings Saved.
+[2026-01-07 13:09:38Z INFO CommandSettings] Flag 'gituseschannel': 'False'
+[2026-01-07 13:09:38Z INFO CommandSettings] Flag 'runasservice': 'False'
+[2026-01-07 13:09:38Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 13:09:38Z INFO PromptManager] ReadValue
+[2026-01-07 13:09:38Z INFO Terminal] WRITE: Enter run agent as service? (Y/N) (press enter for N) > 
+[2026-01-07 13:09:38Z INFO Terminal] READ LINE
+[2026-01-07 13:09:41Z INFO Terminal] Read value: 'N'
+[2026-01-07 13:09:41Z INFO CommandSettings] Flag 'runasautologon': 'False'
+[2026-01-07 13:09:41Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 13:09:41Z INFO PromptManager] ReadValue
+[2026-01-07 13:09:41Z INFO Terminal] WRITE: Enter configure autologon and run agent on startup? (Y/N) (press enter for N) > 
+[2026-01-07 13:09:41Z INFO Terminal] READ LINE
+[2026-01-07 13:10:34Z INFO Terminal] Read value: 'N'
+[2026-01-07 13:10:34Z VERB TelemetryPublisher] Entering Initialize
+[2026-01-07 13:10:34Z VERB CustomerIntelligenceServer] Entering Initialize
+[2026-01-07 13:10:34Z INFO ConfigurationStore] HasCredentials()
+[2026-01-07 13:10:34Z INFO ConfigurationStore] stored True
+[2026-01-07 13:10:34Z INFO CredentialManager] GetCredentialProvider
+[2026-01-07 13:10:34Z INFO CredentialManager] Creating type OAuth
+[2026-01-07 13:10:34Z INFO CredentialManager] Creating credential type: OAuth
+[2026-01-07 13:10:34Z VERB CredentialManager] Created credential type
+[2026-01-07 13:10:34Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials_rsaparams
+[2026-01-07 13:10:34Z INFO ConfigurationManager] LoadSettings
+[2026-01-07 13:10:34Z INFO ConfigurationStore] IsConfigured()
+[2026-01-07 13:10:34Z INFO ConfigurationStore] IsConfigured: True
+[2026-01-07 13:10:34Z INFO ConfigurationManager] Is configured: True
+[2026-01-07 13:10:34Z INFO ConfigurationStore] Read setting file: 177 chars
+[2026-01-07 13:10:34Z INFO ConfigurationManager] Settings Loaded
+[2026-01-07 13:10:34Z VERB VisualStudioServices] Started POST request to https://dev.azure.com/sivareddyit24/_apis/CustomerIntelligence/Events
+[2026-01-07 13:10:34Z VERB VisualStudioServices] Created OAuth issued token provider instance 52156167 (Bearer)
+[2026-01-07 13:10:35Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodcin2.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: bebc5dc6-8c26-4c5e-8898-071e8d7a784e
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 26b2bdd7-e780-4e17-995a-62c1d1170803
+X-TFS-Session: 4ca89412-aaff-4138-be37-e1d852eb7625
+X-VSS-E2EID: dada871b-d2ae-4ff4-8b6a-836cf440e3a5
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcin2.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/sivareddyit24/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/sivareddyit24/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fsivareddyit24%2F_apis%2FCustomerIntelligence%2FEvents&redirect=1&hid=9f5aee28-3dcc-4219-a2b5-7da965f7a6e5&context=eyJodCI6MiwiaGlkIjoiMTljYjRkOGUtNGUxNC00ODhiLTkwMzMtMWFhYWQ0ZmE0MmQwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90&lltid=afed1105-38ec-4cec-9e5b-58d6f7853c71#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: E7DACF9925A3437E8779248BF7F4DDEA Ref B: MAA201060513039 Ref C: 2026-01-07T13:10:35Z
+Date: Wed, 07 Jan 2026 13:10:34 GMT
+
+[2026-01-07 13:10:35Z VERB VisualStudioServices] Started authentication
+[2026-01-07 13:10:35Z VERB VisualStudioServices] OAuth issued token provider instance 52156167 is acquiring a token
+[2026-01-07 13:10:35Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials_rsaparams
+[2026-01-07 13:10:35Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials_rsaparams
+[2026-01-07 13:10:36Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2026-01-07 13:10:36Z VERB VisualStudioServices] OAuth issued token provider instance 52156167 acquired new token instance 8642916
+[2026-01-07 13:10:36Z VERB VisualStudioServices] Finished authentication
+[2026-01-07 13:10:36Z VERB VisualStudioServices] OAuth issued token provider instance 52156167 validated token instance 8642916
+[2026-01-07 13:10:36Z VERB VisualStudioServices] Finished POST request to https://dev.azure.com/sivareddyit24/_apis/CustomerIntelligence/Events with status code 204
+[2026-01-07 13:10:36Z INFO ConfigurationManager] Agent configuration completed successfully - AgentId: 10, AgentName: 'agent-1', Pool: 'self-hosted', ServerUrl: 'https://dev.azure.com/sivareddyit24/'

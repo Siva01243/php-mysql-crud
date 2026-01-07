@@ -1,0 +1,8 @@
+﻿{
+  "agentId": 10,
+  "agentName": "agent-1",
+  "poolId": 10,
+  "poolName": "self-hosted",
+  "serverUrl": "https://dev.azure.com/sivareddyit24/",
+  "workFolder": "_work"
+}

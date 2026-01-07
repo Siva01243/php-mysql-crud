@@ -1,0 +1,1681 @@
+﻿[2026-01-07 13:19:50Z INFO HostContext] [.ctor] HTTP Trace Environment Variable: ''
+[2026-01-07 13:19:50Z INFO HostContext] [.ctor] HTTP trace not enabled - environment variable not set or false
+[2026-01-07 13:19:50Z INFO Program] [Main] Worker process entry point initiated [HostType:Worker, Arguments:spawnclient 1504 2220]
+[2026-01-07 13:19:50Z INFO Program] [MainAsync] Worker process initialization starting - setting up runtime environment. Version: {BuildConstants.AgentPackage.Version}, Commit: {BuildConstants.Source.CommitHash}, Culture: {CultureInfo.CurrentCulture.Name}, UI Culture: {CultureInfo.CurrentUICulture.Name}
+[2026-01-07 13:19:50Z INFO Program] [MainAsync] Command validation successful [Mode:spawnclient, PipeIn:1504, PipeOut:2220]
+[2026-01-07 13:19:50Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:50Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:50Z INFO HostContext] [GetConfigFile] Well known config file 'Proxy': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.proxy'
+[2026-01-07 13:19:50Z INFO VstsAgentWebProxy] [LoadProxySetting] No proxy setting found.
+[2026-01-07 13:19:50Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:50Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:50Z INFO HostContext] [GetConfigFile] Well known config file 'Certificates': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.certificates'
+[2026-01-07 13:19:50Z INFO AgentCertificateManager] [LoadCertificateSettings] No certificate setting found.
+[2026-01-07 13:19:50Z INFO Worker] [RunAsync] VSS client settings initialized [UserAgent:VstsAgentCore-win-x64/4.266.2, ProxyConfigured:True, CertValidationSkipped:False]
+[2026-01-07 13:19:50Z INFO Worker] [RunAsync] JobRunner service created - preparing for IPC channel establishment
+[2026-01-07 13:19:50Z INFO Worker] [RunAsync] Starting process channel client - establishing IPC communication with listener - pipeIn: 1504, pipeOut: 2220
+[2026-01-07 13:19:50Z INFO Worker] [RunAsync] IPC channel established successfully - communication link active with listener process
+[2026-01-07 13:19:50Z INFO Worker] [RunAsync] Process channel established - waiting for job message from listener process
+[2026-01-07 13:19:50Z INFO Worker] [RunAsync] Job message received from listener - beginning deserialization and validation
+[2026-01-07 13:19:50Z INFO Worker] [RunAsync] Job message deserialized successfully [JobId:12f1170f-54f2-53f3-20dd-22fc7dff55f9, PlanId:205ba12c-3f8e-4ce6-b9fd-572304ffcc5e, RequestId:2]
+[2026-01-07 13:19:50Z INFO Worker] [InitializeSecretMasker] Secret masker initialization initiated - processing job security configuration
+[2026-01-07 13:19:50Z INFO HostContext] [Trace] Setting up value for origin: UserSuppliedSecret
+[2026-01-07 13:19:50Z INFO HostContext] [Trace] Setting up value for origin: UserSuppliedSecret
+[2026-01-07 13:19:50Z INFO HostContext] [Trace] Setting up value for origin: UserSuppliedSecret
+[2026-01-07 13:19:50Z INFO HostContext] [Trace] Setting up value for origin: UserSuppliedSecret
+[2026-01-07 13:19:50Z INFO HostContext] [Trace] Setting up value for origin: UserSuppliedSecret
+[2026-01-07 13:19:50Z INFO HostContext] [Trace] Setting up value for origin: UserSuppliedSecret
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: UserSuppliedSecret
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: UserSuppliedSecret
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: UserSuppliedSecret
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: UserSuppliedSecret
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: UserSuppliedSecret
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: UserSuppliedSecret
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up regex for origin: Worker_AddingMaskHint.
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: AddingMaskHint
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up regex for origin: Worker_AddingMaskHint.
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: AddingMaskHint
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up regex for origin: Worker_AddingMaskHint.
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: AddingMaskHint
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up regex for origin: Worker_AddingMaskHint.
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: AddingMaskHint
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up regex for origin: Worker_AddingMaskHint.
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: AddingMaskHint
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up regex for origin: Worker_AddingMaskHint.
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: AddingMaskHint
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up regex for origin: Worker_AddingMaskHint.
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: AddingMaskHint
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up regex for origin: Worker_AddingMaskHint.
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: AddingMaskHint
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: Worker_EndpointAuthorizationParameters_IdSignature
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: Worker_EndpointAuthorizationParameters_RepositoryIds
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: Worker_EndpointAuthorizationParameters_AccessToken
+[2026-01-07 13:19:51Z INFO HostContext] [Trace] Setting up value for origin: Worker_EndpointAuthorizationParameters_AccessToken
+[2026-01-07 13:19:51Z INFO Worker] [InitializeSecretMasker] Secret masker initialization complete [SecretVariables:1, EndpointSecrets:4, SecureFiles:0]
+[2026-01-07 13:19:51Z INFO Worker] [RunAsync] Job preprocessing complete - starting JobRunner execution with detailed message logging
+[2026-01-07 13:19:51Z INFO Worker] [RunAsync] Job message:
+ {
+  "mask": [
+    {
+      "type": "regex",
+      "value": ***
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***
+    },
+    {
+      "type": "regex",
+      "value": "***
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "inputs": {
+        "repository": "self",
+        "fetchDepth": "1"
+      },
+      "type": "task",
+      "reference": {
+        "id": "6d15af64-176c-496d-b583-fd2ae21d4df4",
+        "name": "Checkout",
+        "version": "1.0.0",
+        "buildConfig": "Default",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": false,
+      "id": "af08acd5-c28a-5b03-f5a9-06f9a40627bb",
+      "name": "Checkout",
+      "displayName": "Checkout"
+    },
+    {
+      "inputs": {
+        "rootFolderOrFile": "$(Build.SourcesDirectory)",
+        "includeRootFolder": "false",
+        "archiveType": "zip",
+        "archiveFile": "$(Build.ArtifactStagingDirectory)/php-mysql-crud.zip",
+        "replaceExistingArchive": "true"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d8b84976-e99a-4b86-b885-4849694435b0",
+        "name": "ArchiveFiles",
+        "version": "2.265.0",
+        "buildConfig": "Default",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "1733a1a9-cfbc-56ee-4962-ab8429b6f8a0",
+      "name": "ArchiveFiles",
+      "displayName": "Archive PHP MySQL CRUD App"
+    },
+    {
+      "inputs": {
+        "pathToPublish": "$(Build.ArtifactStagingDirectory)",
+        "artifactName": "drop"
+      },
+      "type": "task",
+      "reference": {
+        "id": "2ff763a7-ce83-4e1f-bc89-0ae63477cebe",
+        "name": "PublishBuildArtifacts",
+        "version": "1.247.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "c5799012-d252-50c1-2200-2d285327a1f0",
+      "name": "PublishBuildArtifacts",
+      "displayName": "Publish Artifact"
+    }
+  ],
+  "variables": {
+    "resources.triggeringCategory": {
+      "value": ""
+    },
+    "resources.triggeringAlias": {
+      "value": ""
+    },
+    "system": {
+      "value": "build",
+      "isReadOnly": true
+    },
+    "system.hosttype": {
+      "value": "build",
+      "isReadOnly": true
+    },
+    "system.servertype": {
+      "value": "Hosted",
+      "isReadOnly": true
+    },
+    "system.culture": {
+      "value": "en-US",
+      "isReadOnly": true
+    },
+    "system.collectionId": {
+      "value": "9f5aee28-3dcc-4219-a2b5-7da965f7a6e5",
+      "isReadOnly": true
+    },
+    "system.collectionUri": {
+      "value": "https://dev.azure.com/sivareddyit24/",
+      "isReadOnly": true
+    },
+    "system.teamFoundationCollectionUri": {
+      "value": "https://dev.azure.com/sivareddyit24/",
+      "isReadOnly": true
+    },
+    "system.taskDefinitionsUri": {
+      "value": "https://dev.azure.com/sivareddyit24/",
+      "isReadOnly": true
+    },
+    "system.pipelineStartTime": {
+      "value": "2026-01-07 13:19:32+00:00",
+      "isReadOnly": true
+    },
+    "system.teamProject": {
+      "value": "Azure_CICD_Pipeline_Task",
+      "isReadOnly": true
+    },
+    "system.teamProjectId": {
+      "value": "d4516e4c-a18d-4caf-b945-636722588e6d",
+      "isReadOnly": true
+    },
+    "system.definitionId": {
+      "value": "3",
+      "isReadOnly": true
+    },
+    "build.definitionName": {
+      "value": "Siva01243.php-mysql-crud",
+      "isReadOnly": true
+    },
+    "build.repository.id": {
+      "value": "Siva01243/php-mysql-crud",
+      "isReadOnly": true
+    },
+    "build.repository.name": {
+      "value": "Siva01243/php-mysql-crud",
+      "isReadOnly": true
+    },
+    "build.repository.uri": {
+      "value": "https://github.com/Siva01243/php-mysql-crud",
+      "isReadOnly": true
+    },
+    "build.definitionVersion": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "USE_MSDEPLOY_TOKEN_AUTH": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.AddForceCredentialsToGitCheckoutEnhanced": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.AgentCDNConnectivityFailWarning": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.AgentEnablePipelineArtifactLargeChunkSize": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.CheckIfTaskNodeRunnerIsDeprecated246": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.CheckPsModulesLocations": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.CleanupPsModulesInPowershell": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ContinueAfterCancelProcessTreeKillAttempt": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.DockerActionRetries": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableIssueSourceValidation": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableResourceMonitorDebugOutput": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableResourceUtilizationWarnings": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableTimeoutLogFlushing": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailDeprecatedBuildTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailDeprecatedTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailJobWhenAgentDies": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FixPossibleGitOutOfMemoryProblem": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ForceUpdateToLatest2Version": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.IgnoreVSTSTaskLib": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.LogTaskNameInUserAgent": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.LogToBlobstorageService": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.MountWorkspace": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ReadOnlyVariables": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.Rosetta2Warning": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UploadBuildArtifactsToBlob": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UploadTimelineAttachmentsToBlob": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseDockerComposeV2CompatibleMode": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseEnhancedLogging": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseFetchFilterInCheckoutTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseGitLongPaths": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseInteropToFindParentProcess": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseLatestGitVersion": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseLatestTfExe": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseMsalLibrary": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.USENEWNODEHANDLERTELEMETRY": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseNode24withHandlerData": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseSparseCheckoutInCheckoutTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseWorkspaceId": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.CommaSeperatedConnectionString": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.CopyFilesOverSSHV0UseQueue": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.EnableDockerReservedNameCheck": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.EnableExtensionVersionSupport": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.EnableMsalV3": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.hideDockerExecTaskLogIssueErrorOutput": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.ModifyNumberOfRetriesInRobocopy": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.MSBuildHelpersEnableTelemetry": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.RetireAzureRMPowerShellModule": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.ShowWarningOnOlderAzureModules": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.SkipHelmManifestNullParts": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.Use7zV2409InUtilityCommonPackage": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.Use7zV2409InWebDeploymentCommonPackage": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.UseAzVersion": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.UseDigestImageFromFile": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.useJacocoTemplateV2forSingleModule": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.UseLatestAzCopyAsDefault": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.UseLatestOpensslVersion": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.UseOIDCToken2InAzureArmRest": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "build.definitionFolderPath": {
+      "value": "\\",
+      "isReadOnly": true
+    },
+    "VSTSAGENT_CONTINUE_AFTER_CANCEL_PROCESSTREEKILL_ATTEMPT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "VSTSAGENT_DOCKER_ACTION_RETRIES": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_MSAL": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_COLLECT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_PH_LOGIC": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_CHECK_FOR_TASK_DEPRECATION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_MOUNT_WORKSPACE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_IGNORE_VSTSTASKLIB": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_PS_ENABLE_INVOKE_PROCESS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_DEPRECATED_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_LOG_TASKNAME_IN_USERAGENT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AGENT_USE_FETCH_FILTER_IN_CHECKOUT_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AGENT_USE_SPARSE_CHECKOUT_IN_CHECKOUT_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_OPENSSL_LATEST_VERSION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "MODIFY_NUMBER_OF_RETRIES_IN_ROBOCOPY": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_LOGIC": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_LOGIC_LOG": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "AGENT_ENABLE_PIPELINEARTIFACT_LARGE_CHUNK_SIZE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_JOB_WHEN_AGENT_DIES": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_LATEST_GIT_VERSION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_GIT_LONG_PATHS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "ENABLE_ISSUE_SOURCE_VALIDATION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "RETIRE_AZURERM_POWERSHELL_MODULE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_ENABLE_RESOURCE_MONITOR_DEBUG_OUTPUT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_ENABLE_RESOURCE_UTILIZATION_WARNINGS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_DEPRECATED_BUILD_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_USE_INTEROP_TO_FIND_PARENT_PROCESS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "ROSETTA2_WARNING": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "COPYFILESOVERSSHV0_USE_QUEUE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_FIXED_AZ_CONFIG_INIT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_AKS_CREDENTIAL_API": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "MSBUILDHELPERS_ENABLE_TELEMETRY": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "build.dependencyScanningInjectionEnabled": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "build.advancedSecurityEnabled": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "build.queuedBy": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.queuedById": {
+      "value": "79848f8b-713e-67f5-97dd-4fcfc53b8830",
+      "isReadOnly": true
+    },
+    "build.requestedFor": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.requestedForId": {
+      "value": "79848f8b-713e-67f5-97dd-4fcfc53b8830",
+      "isReadOnly": true
+    },
+    "build.requestedForEmail": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceVersion": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceBranch": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceBranchName": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.reason": {
+      "value": "Manual",
+      "isReadOnly": true
+    },
+    "system.pullRequest.isFork": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "system.jobParallelismTag": {
+      "value": "Private",
+      "isReadOnly": true
+    },
+    "system.enableAccessToken": {
+      "value": "SecretVariable",
+      "isReadOnly": true
+    },
+    "System.CanIssueOidcTokenForWorkloadIdentityFederation": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "MSDEPLOY_HTTP_USER_AGENT": {
+      "value": "VSTS_9f5aee28-3dcc-4219-a2b5-7da965f7a6e5_build_3_0",
+      "isReadOnly": true
+    },
+    "AZURE_HTTP_USER_AGENT": {
+      "value": "VSTS_9f5aee28-3dcc-4219-a2b5-7da965f7a6e5_build_3_0",
+      "isReadOnly": true
+    },
+    "build.buildId": {
+      "value": "13",
+      "isReadOnly": true
+    },
+    "build.buildUri": {
+      "value": "vstfs:///Build/Build/13",
+      "isReadOnly": true
+    },
+    "build.buildNumber": {
+      "value": "20260107.10",
+      "isReadOnly": true
+    },
+    "build.containerId": {
+      "value": "76267103",
+      "isReadOnly": true
+    },
+    "system.isScheduled": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "system.definitionName": {
+      "value": "Siva01243.php-mysql-crud",
+      "isReadOnly": true
+    },
+    "system.planId": {
+      "value": "205ba12c-3f8e-4ce6-b9fd-572304ffcc5e",
+      "isReadOnly": true
+    },
+    "system.timelineId": {
+      "value": "205ba12c-3f8e-4ce6-b9fd-572304ffcc5e",
+      "isReadOnly": true
+    },
+    "system.stageDisplayName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "system.stageId": {
+      "value": "96ac2280-8cb4-5df5-99de-dd2da759617d",
+      "isReadOnly": true
+    },
+    "system.stageName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "system.stageAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "build.stageRequestedById": {
+      "value": "00000002-0000-8888-8000-000000000000",
+      "isReadOnly": true
+    },
+    "build.stageRequestedBy": {
+      "value": "Microsoft.VisualStudio.Services.TFS",
+      "isReadOnly": true
+    },
+    "system.phaseDisplayName": {
+      "value": "Job",
+      "isReadOnly": true
+    },
+    "system.phaseId": {
+      "value": "3a3a2a60-14c7-570b-14a4-fa42ad92f52a",
+      "isReadOnly": true
+    },
+    "system.phaseName": {
+      "value": "Job",
+      "isReadOnly": true
+    },
+    "system.phaseAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.jobIdentifier": {
+      "value": "Job.__default",
+      "isReadOnly": true
+    },
+    "system.jobAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "System.JobPositionInPhase": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.jobDisplayName": {
+      "value": "Job",
+      "isReadOnly": true
+    },
+    "system.jobId": {
+      "value": "12f1170f-54f2-53f3-20dd-22fc7dff55f9",
+      "isReadOnly": true
+    },
+    "system.jobName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "system.jobTimeout": {
+      "value": "60",
+      "isReadOnly": true
+    },
+    "system.accessToken": {
+      "value": ***
+      "isSecret": true
+    },
+    "agent.retainDefaultEncoding": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "agent.LogToBlobstorageService": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.UploadBuildArtifactsToBlob": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.UploadTimelineAttachmentsToBlob": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.readOnlyVariables": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.useWorkspaceId": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "system.postLinesSpeed": {
+      "value": "500",
+      "isReadOnly": true
+    },
+    "system.preferRedirectGetContainerItem": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.taskRestrictionsEnforcementMode": {
+      "value": "Enabled",
+      "isReadOnly": true
+    },
+    "System.OidcRequestUri": {
+      "value": "https://dev.azure.com/sivareddyit24/d4516e4c-a18d-4caf-b945-636722588e6d/_apis/distributedtask/hubs/build/plans/205ba12c-3f8e-4ce6-b9fd-572304ffcc5e/jobs/12f1170f-54f2-53f3-20dd-22fc7dff55f9/oidctoken",
+      "isReadOnly": true
+    },
+    "agent.disablelogplugin.TestResultLogPlugin": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.disablelogplugin.TestFilePublisherPlugin": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "build.sourceVersionAuthor": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceVersionMessage": {
+      "value": "Update azure-pipelines.yml for Azure Pipelines",
+      "isReadOnly": true
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "d4516e4c-a18d-4caf-b945-636722588e6d",
+    "planType": "Build",
+    "version": 19,
+    "planId": "205ba12c-3f8e-4ce6-b9fd-572304ffcc5e",
+    "planGroup": "Build:d4516e4c-a18d-4caf-b945-636722588e6d:13",
+    "artifactUri": "vstfs:///Build/Build/13",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {
+        "web": {
+          "href": "https://dev.azure.com/sivareddyit24/d4516e4c-a18d-4caf-b945-636722588e6d/_build/definition?definitionId=3"
+        },
+        "self": {
+          "href": "https://dev.azure.com/sivareddyit24/d4516e4c-a18d-4caf-b945-636722588e6d/_apis/build/Definitions/3"
+        }
+      },
+      "id": 3,
+      "name": "Siva01243.php-mysql-crud"
+    },
+    "owner": {
+      "_links": {
+        "web": {
+          "href": "https://dev.azure.com/sivareddyit24/d4516e4c-a18d-4caf-b945-636722588e6d/_build/results?buildId=13"
+        },
+        "self": {
+          "href": "https://dev.azure.com/sivareddyit24/d4516e4c-a18d-4caf-b945-636722588e6d/_apis/build/Builds/13"
+        }
+      },
+      "id": 13,
+      "name": "20260107.10"
+    }
+  },
+  "timeline": {
+    "id": "205ba12c-3f8e-4ce6-b9fd-572304ffcc5e",
+    "changeId": 5,
+    "location": null
+  },
+  "jobId": "12f1170f-54f2-53f3-20dd-22fc7dff55f9",
+  "jobDisplayName": "Job",
+  "jobName": "__default",
+  "jobContainer": null,
+  "requestId": 0,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "pipelinesSourceProvider": "github",
+          "AvatarUrl": "https://avatars.githubusercontent.com/u/253447933?v=4"
+        },
+        "id": "6e167a78-8824-44c2-86b5-9e6d2a57d6f4",
+        "name": "Siva01243",
+        "type": "GitHub",
+        "owner": "Library",
+        "url": "https://github.com",
+        "createdBy": {
+          "displayName": "Gangireddy Siva",
+          "url": "https://spsprodcin1.vssps.visualstudio.com/A19cb4d8e-4e14-488b-9033-1aaad4fa42d0/_apis/Identities/79848f8b-713e-67f5-97dd-4fcfc53b8830",
+          "_links": {
+            "avatar": {
+              "href": "https://dev.azure.com/sivareddyit24/_apis/GraphProfile/MemberAvatars/msa.Nzk4NDhmOGItNzEzZS03N2Y1LTk3ZGQtNGZjZmM1M2I4ODMw"
+            }
+          },
+          "id": "79848f8b-713e-67f5-97dd-4fcfc53b8830",
+          "uniqueName": "sivareddyit24@gmail.com",
+          "imageUrl": "https://dev.azure.com/sivareddyit24/_apis/GraphProfile/MemberAvatars/msa.Nzk4NDhmOGItNzEzZS03N2Y1LTk3ZGQtNGZjZmM1M2I4ODMw",
+          "descriptor": "msa.Nzk4NDhmOGItNzEzZS03N2Y1LTk3ZGQtNGZjZmM1M2I4ODMw"
+        },
+        "description": "",
+        "authorization": {
+          "parameters": {
+            "IdToken": "103033985",
+            "IdSignature": "***
+            "RepositoryIds": "***",
+            "AccessToken": ***
+          },
+          "scheme": "Token"
+        },
+        "serviceManagementReference": null,
+        "isShared": false,
+        "isReady": true
+      },
+      {
+        "data": {
+          "ServerId": "9f5aee28-3dcc-4219-a2b5-7da965f7a6e5",
+          "ServerName": "sivareddyit24"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://dev.azure.com/sivareddyit24/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "serviceManagementReference": null,
+        "isShared": false,
+        "isReady": true
+      }
+    ],
+    "repositories": [
+      {
+        "properties": {
+          "id": "Siva01243/php-mysql-crud",
+          "type": "GitHub",
+          "version": "0f9a389f9611d84a130a354db3bb530d0ba32d7f",
+          "name": "Siva01243/php-mysql-crud",
+          "ref": "refs/heads/master",
+          "defaultBranch": "refs/heads/master",
+          "externalId": "***",
+          "project": "d4516e4c-a18d-4caf-b945-636722588e6d",
+          "url": "https://github.com:443/Siva01243/php-mysql-crud",
+          "versionInfo": {
+            "author": "[PII]"
+          },
+          "checkoutOptions": {
+            "fetchDepth": "1"
+          }
+        },
+        "alias": "self",
+        "endpoint": {
+          "id": "6e167a78-8824-44c2-86b5-9e6d2a57d6f4"
+        }
+      }
+    ]
+  },
+  "workspace": {}
+}
+[2026-01-07 13:19:51Z INFO JobRunner] [RunAsync] Creating job server connection [URL:https://dev.azure.com/sivareddyit24/]
+[2026-01-07 13:19:51Z INFO VisualStudioServices] [OnEventWritten] Starting operation Location.GetConnectionData
+[2026-01-07 13:19:51Z INFO Worker] [RunAsync] Entering message monitoring loop - listening for cancellation and shutdown signals
+[2026-01-07 13:19:51Z INFO Worker] [RunAsync] Starting listener for control messages from listener process [Iteration:1]
+[2026-01-07 13:19:51Z INFO Worker] [RunAsync] Waiting for the job to complete or for a cancel message from the channel.
+[2026-01-07 13:19:52Z INFO VisualStudioServices] [OnEventWritten] Finished operation Location.GetConnectionData
+[2026-01-07 13:19:52Z INFO JobServerQueue] [Start] Start process web console line queue.
+[2026-01-07 13:19:52Z INFO JobServerQueue] [Start] Start process file upload queue.
+[2026-01-07 13:19:52Z INFO JobServerQueue] [Start] Start process timeline update queue.
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] JobServer connection established successfully [URL:https://dev.azure.com/sivareddyit24/, ThrottlingEnabled:True]
+[2026-01-07 13:19:52Z INFO ConfigurationStore] [C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\Agent.Worker.dll] currentAssemblyLocation: {0}
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO ConfigurationStore] [C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin] binPath: {0}
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:52Z INFO ConfigurationStore] [C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent] RootFolder: {0}
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:52Z INFO HostContext] [GetConfigFile] Well known config file 'Agent': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.agent'
+[2026-01-07 13:19:52Z INFO ConfigurationStore] [C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.agent] ConfigFilePath: {0}
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:52Z INFO HostContext] [GetConfigFile] Well known config file 'Credentials': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials'
+[2026-01-07 13:19:52Z INFO ConfigurationStore] [C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials] CredFilePath: {0}
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:52Z INFO HostContext] [GetConfigFile] Well known config file 'Service': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.service'
+[2026-01-07 13:19:52Z INFO ConfigurationStore] [C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.service] ServiceConfigFilePath: {0}
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:52Z INFO HostContext] [GetConfigFile] Well known config file 'Autologon': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.autologon'
+[2026-01-07 13:19:52Z INFO ConfigurationStore] [C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.autologon] AutoLogonSettingsFilePath: {0}
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:52Z INFO HostContext] [GetConfigFile] Well known config file 'Options': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.options'
+[2026-01-07 13:19:52Z INFO ConfigurationStore] [C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.options] RuntimeOptionsFilePath: {0}
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:52Z INFO HostContext] [GetConfigFile] Well known config file 'SetupInfo': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.setup_info'
+[2026-01-07 13:19:52Z INFO ConfigurationStore] [C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.setup_info] SetupInfoFilePath: {0}
+[2026-01-07 13:19:52Z INFO ConfigurationStore] [GetSettings] Read setting file: 177 chars
+[2026-01-07 13:19:52Z INFO ExecutionContext] [Initialize] Logs streaming mode: StreamToServer
+[2026-01-07 13:19:52Z INFO ExecutionContext] [GetWorkspaceIdentifier] WorkspaceIdentifier '01ba834d176b89700684b3a655b8e86f9116cbf8' created for repos Microsoft.VisualStudio.Services.Agent.Worker.Build.RepositoryTrackingInfo
+[2026-01-07 13:19:52Z INFO HostContext] [RemoveShortSecretsFromDictionary] Removing short secrets from masking dictionary
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] ExecutionContext initialized successfully. [JobName: Job]
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] Validating directory permissions for: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] Work directory validation successful [Path:C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work]
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] Agent metadata populated [AgentId:10, AgentName:agent-1, OS:Windows_NT, Architecture:X64, SelfHosted:True, CloudId:, MachineName:SIVAREDDY]
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] Environment detection initiated - setting up Azure VM and Docker container detection
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Tools': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tool'
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] Tools directory initialized [Path:C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tool]
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:52Z INFO HostContext] [GetDirectory] Well known directory 'Temp': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_temp'
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] Temporary directory manager initialized - TEMP directories configured for job execution
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] TaskServer connection setup initiated - establishing connection for task definitions
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] Creating task server [URI:https://dev.azure.com/sivareddyit24/]
+[2026-01-07 13:19:52Z INFO VisualStudioServices] [OnEventWritten] Starting operation Location.GetConnectionData
+[2026-01-07 13:19:52Z INFO VisualStudioServices] [OnEventWritten] Finished operation Location.GetConnectionData
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] TaskServer connection established successfully [URI: https://dev.azure.com/sivareddyit24/]
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] Endpoint data expansion completed for 2 endpoints
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] Repository property expansion completed for 1 repositories
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] Container property expansion completed - Containers: 0, Sidecars: 0
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] Initiating Windows preinstalled Git telemetry collection for self-hosted agent
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] Job extension initialization initiated - determining host type and loading appropriate extension
+[2026-01-07 13:19:52Z INFO ExtensionManager] [Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension] Getting extensions for interface: '{0}'
+[2026-01-07 13:19:52Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BuildJobExtension, Agent.Worker
+[2026-01-07 13:19:52Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.ReleaseJobExtension, Agent.Worker
+[2026-01-07 13:19:52Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.DeploymentJobExtension, Agent.Worker
+[2026-01-07 13:19:52Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Maintenance.MaintenanceJobExtension, Agent.Worker
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] Job extension loaded successfully - HostType: Build, ExtensionType: BuildJobExtension
+[2026-01-07 13:19:52Z INFO JobRunner] [RunAsync] Job steps initialization initiated - parsing step definitions and resolving task references
+[2026-01-07 13:19:52Z INFO ExecutionContext] [Initialize] Logs streaming mode: StreamToServer
+[2026-01-07 13:19:52Z INFO BuildJobExtension] [OutputImageVersion] Image version for job id 12f1170f-54f2-53f3-20dd-22fc7dff55f9 is not set
+[2026-01-07 13:19:52Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record '12f1170f-54f2-53f3-20dd-22fc7dff55f9', success rate: 1/1.
+[2026-01-07 13:19:53Z INFO BuildJobExtension] [InitializeJob] Run initial step from extension BuildJobExtension.
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider] Getting extensions for interface: '{0}'
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.ExternalGitSourceProvider, Agent.Worker
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.GitHubSourceProvider, Agent.Worker
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.GitHubEnterpriseSourceProvider, Agent.Worker
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BitbucketSourceProvider, Agent.Worker
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.SvnSourceProvider, Agent.Worker
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.TfsGitSourceProvider, Agent.Worker
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.TfsVCSourceProvider, Agent.Worker
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO BuildDirectoryManager] [DeleteDirectory] Checking if artifacts directory exists: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\1\a'
+[2026-01-07 13:19:53Z INFO BuildDirectoryManager] [CreateDirectory] Creating artifacts directory.
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO BuildDirectoryManager] [DeleteDirectory] Checking if test results directory exists: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\1\TestResults'
+[2026-01-07 13:19:53Z INFO BuildDirectoryManager] [CreateDirectory] Creating test results directory.
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO BuildDirectoryManager] [PrepareDirectory] Set repository path for repository self to 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\1\s'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO BuildJobExtension] [UpdateCheckoutTasksAndVariables] Checking repository name self
+[2026-01-07 13:19:53Z INFO BuildJobExtension] [InitializeJob] Downloading task definitions.
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetConfigFile] Well known config file 'TaskExceptionList': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\tasks-exception-list.json'
+[2026-01-07 13:19:53Z INFO TaskManager] [DownloadAsync] Skip download checkout task. [TASK-6d15af64176c]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [TASK-d8b84976e99a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [TASK-d8b84976e99a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [TASK-d8b84976e99a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Tasks': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks' [TASK-d8b84976e99a]
+[2026-01-07 13:19:53Z INFO TaskManager] [DownloadAsync] Ensuring task exists: ID 'd8b84976-e99a-4b86-b885-4849694435b0', version '2.265.0', name 'ArchiveFiles', directory 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks\ArchiveFiles_d8b84976-e99a-4b86-b885-4849694435b0\2.265.0'. [TASK-d8b84976e99a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [TASK-d8b84976e99a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [TASK-d8b84976e99a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [TASK-d8b84976e99a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Tasks': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks' [TASK-d8b84976e99a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [TASK-d8b84976e99a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [TASK-d8b84976e99a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [TASK-d8b84976e99a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Tasks': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks' [TASK-d8b84976e99a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [TASK-2ff763a7ce83]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [TASK-2ff763a7ce83]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [TASK-2ff763a7ce83]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Tasks': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks' [TASK-2ff763a7ce83]
+[2026-01-07 13:19:53Z INFO TaskManager] [DownloadAsync] Ensuring task exists: ID '2ff763a7-ce83-4e1f-bc89-0ae63477cebe', version '1.247.1', name 'PublishBuildArtifacts', directory 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks\PublishBuildArtifacts_2ff763a7-ce83-4e1f-bc89-0ae63477cebe\1.247.1'. [TASK-2ff763a7ce83]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [TASK-2ff763a7ce83]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [TASK-2ff763a7ce83]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [TASK-2ff763a7ce83]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Tasks': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks' [TASK-2ff763a7ce83]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [TASK-2ff763a7ce83]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [TASK-2ff763a7ce83]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [TASK-2ff763a7ce83]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Tasks': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks' [TASK-2ff763a7ce83]
+[2026-01-07 13:19:53Z INFO BuildJobExtension] [InitializeJob] Downloading Node 6 runner.
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Externals': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\externals'
+[2026-01-07 13:19:53Z INFO NodeJsUtil] [DownloadNodeRunnerAsync] Node 6 runner already exist.
+[2026-01-07 13:19:53Z INFO BuildJobExtension] [InitializeJob] Parsing all task's condition inputs.
+[2026-01-07 13:19:53Z INFO AsyncCommandContext] [WaitAsync] Start flush buffered output.
+[2026-01-07 13:19:53Z INFO AsyncCommandContext] [WaitAsync] Finsh flush buffered output.
+[2026-01-07 13:19:53Z INFO AsyncCommandContext] [WaitAsync] Wait till async command task to finish.
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Tasks': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Tasks': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'TaskZips': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_taskzips'
+[2026-01-07 13:19:53Z INFO TaskManager] [GetTaskDefiniton] Loading task definition 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks\ArchiveFiles_d8b84976-e99a-4b86-b885-4849694435b0\2.265.0\task.json'.
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Tasks': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'TaskZips': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_taskzips'
+[2026-01-07 13:19:53Z INFO TaskManager] [GetTaskDefiniton] Loading task definition 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks\PublishBuildArtifacts_2ff763a7-ce83-4e1f-bc89-0ae63477cebe\1.247.1\task.json'.
+[2026-01-07 13:19:53Z INFO BuildJobExtension] [InitializeJob] Adding pre-job step from extension.
+[2026-01-07 13:19:53Z INFO BuildJobExtension] [InitializeJob] Adding post-job step from extension.
+[2026-01-07 13:19:53Z INFO ExecutionContext] [Initialize] Logs streaming mode: StreamToServer
+[2026-01-07 13:19:53Z INFO ExecutionContext] [Initialize] Logs streaming mode: StreamToServer
+[2026-01-07 13:19:53Z INFO ExecutionContext] [Initialize] Logs streaming mode: StreamToServer
+[2026-01-07 13:19:53Z INFO BuildJobExtension] [InitializeJob] Adding post-job steps from tasks.
+[2026-01-07 13:19:53Z INFO ExecutionContext] [Initialize] Logs streaming mode: StreamToServer
+[2026-01-07 13:19:53Z INFO BuildJobExtension] [SnapshotProcesses] Total accessible running process: 302.
+[2026-01-07 13:19:53Z INFO JobRunner] [RunAsync] Job extension initialization completed successfully
+[2026-01-07 13:19:53Z INFO JobRunner] [RunAsync] Total job steps: 4.
+[2026-01-07 13:19:53Z INFO JobRunner] [RunAsync] Run all job steps.
+[2026-01-07 13:19:53Z INFO JobRunner] [RunAsync] Step execution pipeline initiated - beginning job steps execution with StepsRunner
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Async command completion wait initiated - processing 3 pending commands
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Async command initiated [Command:WindowsPreinstalledGitTelemetry, CommandType:AsyncCommandContext]
+[2026-01-07 13:19:53Z INFO AsyncCommandContext] [WaitAsync] Start flush buffered output.
+[2026-01-07 13:19:53Z INFO AsyncCommandContext] [WaitAsync] Finsh flush buffered output.
+[2026-01-07 13:19:53Z INFO AsyncCommandContext] [WaitAsync] Wait till async command task to finish.
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Async command completed successfully: WindowsPreinstalledGitTelemetry
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Async command initiated [Command:WindowsPreinstalledGitTelemetry, CommandType:AsyncCommandContext]
+[2026-01-07 13:19:53Z INFO AsyncCommandContext] [WaitAsync] Start flush buffered output.
+[2026-01-07 13:19:53Z INFO AsyncCommandContext] [WaitAsync] Finsh flush buffered output.
+[2026-01-07 13:19:53Z INFO AsyncCommandContext] [WaitAsync] Wait till async command task to finish.
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Async command completed successfully: WindowsPreinstalledGitTelemetry
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Async command initiated [Command:WindowsPreinstalledGitTelemetry, CommandType:AsyncCommandContext]
+[2026-01-07 13:19:53Z INFO AsyncCommandContext] [WaitAsync] Start flush buffered output.
+[2026-01-07 13:19:53Z INFO AsyncCommandContext] [WaitAsync] Finsh flush buffered output.
+[2026-01-07 13:19:53Z INFO AsyncCommandContext] [WaitAsync] Wait till async command task to finish.
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Async command completed successfully: WindowsPreinstalledGitTelemetry
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Async command completion wait finished - 3 commands processed
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Step iteration loop initiated - beginning sequential step processing
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Processing step 1/4: DisplayName='Checkout Siva01243/php-mysql-crud@master to s', ContinueOnError=False, Enabled=True
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Processing step: DisplayName='Checkout Siva01243/php-mysql-crud@master to s', ContinueOnError=False, Enabled=True [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] ExecutionContext startup initiated for step: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Task step initiated [TaskName:Checkout, TaskId:6d15af64-176c-496d-b583-fd2ae21d4df4, Version:1.0.0, Stage:Main] [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Variable expansion completed [Step:'Checkout Siva01243/php-mysql-crud@master to s', Warnings:0, Target:None] [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Job cancellation registration setup [Step:'Checkout Siva01243/php-mysql-crud@master to s', JobCancellationRequested:False, RegistrationActive:True] [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ExpressionManager] [Info] Evaluating: SucceededNode() [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ExpressionManager] [Info] Result: True [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] Condition evaluation completed - Result: True, Step: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunAsync] RunStepAsync execution initiated for step: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunStepWithTimeoutAsync] Individual step execution initiated: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunStepWithTimeoutAsync] Worker timeout registration active for step: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunStepAsync] Individual step execution initiated: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunStepAsync] UTF-8 codepage switching initiated for step: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunStepAsync] UTF-8 codepage switching completed for step: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunStepAsync] Codepage configuration [Platform:Windows, RetainEncoding:False, CurrentCodepage:65001] [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO StepsRunner] [RunStepAsync] Step main execution initiated: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsync] Task execution initiated - Task: 'Checkout@1.0.0', Stage: Main [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsync] Core task execution initiated - transitioning to RunAsyncInternal() [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Task execution pipeline initiated - Task: 'Checkout@1.0.0', Stage: Main [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Task definition loading initiated - Task: 'Checkout@1.0.0', TaskId: '6d15af64-176c-496d-b583-fd2ae21d4df4', Stage: 'Main' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Tasks': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [GetHandlerData] Handler selection initiated - Available handlers: 1 [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [GetHandlerData] Get handler data for target platform Windows [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Handler selected successfully - Type: Microsoft.VisualStudio.Services.Agent.Worker.AgentPluginHandlerData [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [LoadDefaultInputs] Task input loading completed - 10 inputs for available [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Loading instance inputs - Processing 2 instance inputs [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Processing instance input: 'repository' : self [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Processing instance input: 'fetchDepth' : 1 [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Instance input merging completed - Total processed inputs: 10 [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Security validation completed - No secret injection detected [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Environment setup completed - Loaded 0 environment variables [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Service endpoint processing completed - Found 0 endpoint references [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Endpoint resolution initiated - Resolving endpoint references [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Endpoint resolution completed - Resolved 1 endpoints, Endpoints: SystemVssConnection [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Secure file processing initiated - Extracting secure file references [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Secure file processing completed - Found 0 secure file references [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Secure file resolution initiated - Resolving secure file references [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Secure file resolution completed - Resolved 0 secure files. Secure Files:  [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Output variables setup completed - Configured 0 output variables [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Microsoft.VisualStudio.Services.Agent.Worker.IWorkerCommandExtension] Getting extensions for interface: '{0}' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.TaskCommandExtension, Agent.Worker [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.ArtifactCommandExtension, Agent.Worker [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BuildCommandExtension, Agent.Worker [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.CodeCoverage.CodeCoverageCommandExtension, Agent.Worker [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.TestResults.ResultsCommandExtension, Agent.Worker [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Telemetry.TelemetryCommandExtension, Agent.Worker [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.ReleaseCommandExtension, Agent.Worker [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ExtensionManager] [Add] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.PluginInternalCommandExtension, Agent.Worker [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO WorkerCommandManager] [Initialize] Register command extension for area task [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO WorkerCommandManager] [Initialize] Register command extension for area artifact [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO WorkerCommandManager] [Initialize] Register command extension for area build [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO WorkerCommandManager] [Initialize] Register command extension for area codecoverage [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO WorkerCommandManager] [Initialize] Register command extension for area results [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO WorkerCommandManager] [Initialize] Register command extension for area telemetry [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO WorkerCommandManager] [Initialize] Register command extension for area release [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO WorkerCommandManager] [Initialize] Register command extension for area plugininternal [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginHandler] [AfterExecutionContextInitialized] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Handler creation completed - Handler created: AgentPluginHandler [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record '4fcf691f-401b-497c-be64-9dfff8fa0a11', success rate: 1/1.
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Task handler execution initiated - Task: 'Checkout Siva01243/php-mysql-crud@master to s', Retry count: 0 [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO TaskRunner] [RunAsyncInternal] Standard execution - Running handler without retry [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.Repository.CheckoutTask, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id '6d15af64-176c-496d-b583-fd2ae21d4df4' (main). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.Repository.CleanupTask, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id '6d15af64-176c-496d-b583-fd2ae21d4df4' (post). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTask, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTask, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTaskV1, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_0, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.PipelineCache.SavePipelineCacheV0, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id 'd53ccab4-555e-4494-9d06-11db043fb4a9' (post). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.PipelineCache.RestorePipelineCacheV0, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id 'd53ccab4-555e-4494-9d06-11db043fb4a9' (main). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_1, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_2, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_3, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV2_0_0, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTaskV0_140_0, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Load task plugin from 'Agent.Plugins.BuildArtifacts.DownloadBuildArtifactTaskV1_0_0, Agent.Plugins'. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO AgentPluginManager] [Initialize] Loaded task plugin id 'a433f589-fce1-4460-9ee6-44a624aeb1fb' (main). [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO WorkerCommandManager] [EnablePluginInternalCommand] Enable plugin internal command extension. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync] Starting process: [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync]   File name: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\Agent.PluginHost.exe' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Arguments: 'task "Agent.Plugins.Repository.CheckoutTask, Agent.Plugins"' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Working directory: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Require exit code zero: 'True' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Encoding web name: utf-8 ; code page: '65001' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Force kill process on cancellation: 'False' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Redirected STDIN: 'True' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Persist current code page: 'False' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Keep redirected STDIN open: 'False' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync]   High priority process: 'False' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync]   ContinueAfterCancelProcessTreeKillAttempt: 'False' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Sigint timeout: '00:00:07.5000000' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Sigterm timeout: '00:00:02.5000000' [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Try to use graceful shutdown: False [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [DecreaseProcessPriority] OOM score adjustment is Linux-only. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [ExecuteAsync] Process started, waiting for process exit. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [StartWriteStream] Close STDIN after the first redirect finished. [STEP-af08acd5c28a]
+[2026-01-07 13:19:53Z INFO ProcessInvokerWrapper] [StartWriteStream] STDIN stream write finished. [STEP-af08acd5c28a]
+[2026-01-07 13:19:54Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record '4fcf691f-401b-497c-be64-9dfff8fa0a11', success rate: 1/1.
+[2026-01-07 13:19:54Z INFO VisualStudioServices] [OnEventWritten] Starting operation Location.GetConnectionData
+[2026-01-07 13:19:54Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record '12f1170f-54f2-53f3-20dd-22fc7dff55f9', success rate: 1/1.
+[2026-01-07 13:19:54Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record 'af08acd5-c28a-5b03-f5a9-06f9a40627bb', success rate: 1/1.
+[2026-01-07 13:19:54Z INFO VisualStudioServices] [OnEventWritten] Finished operation Location.GetConnectionData
+[2026-01-07 13:19:54Z INFO VisualStudioServices] [OnEventWritten] Starting operation Location.GetConnectionData
+[2026-01-07 13:19:55Z INFO VisualStudioServices] [OnEventWritten] Finished operation Location.GetConnectionData
+[2026-01-07 13:19:55Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record 'af08acd5-c28a-5b03-f5a9-06f9a40627bb', success rate: 1/1.
+[2026-01-07 13:19:55Z INFO HostContext] [Trace] Setting up value for origin: TaskSetSecretCommand [STEP-af08acd5c28a]
+[2026-01-07 13:19:55Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record 'af08acd5-c28a-5b03-f5a9-06f9a40627bb', success rate: 1/1.
+[2026-01-07 13:19:56Z INFO JobServerQueue] [ProcessFilesUploadQueueAsync] Try to upload 1 log files or attachments, success rate: 1/1.
+[2026-01-07 13:19:56Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record 'af08acd5-c28a-5b03-f5a9-06f9a40627bb', success rate: 1/1.
+[2026-01-07 13:19:58Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record 'af08acd5-c28a-5b03-f5a9-06f9a40627bb', success rate: 1/1.
+[2026-01-07 13:19:59Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record 'af08acd5-c28a-5b03-f5a9-06f9a40627bb', success rate: 1/1.
+[2026-01-07 13:20:00Z INFO HostContext] [Trace] Setting up value for origin: Variables_Set_repoUrlWithCred [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO ProcessInvokerWrapper] [StartReadStream] STDOUT/STDERR stream read finished. [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO ProcessInvokerWrapper] [StartReadStream] STDOUT/STDERR stream read finished. [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO ProcessInvokerWrapper] [ProcessExitedHandler] Exited process [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO ProcessInvokerWrapper] [ExecuteAsync] Finished process and elapsed time 00:00:07.1889989. [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO WorkerCommandManager] [EnablePluginInternalCommand] Disable plugin internal command extension. [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Task handler execution completed - Task: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsync] Core task execution completed successfully - Task: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsync] Task information removed from user agent - Task: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunStepAsync] Step main execution completed successfully: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunStepAsync] Async command completion wait initiated for step: 'Checkout Siva01243/php-mysql-crud@master to s' - Commands: 0 [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunStepAsync] Step async command summary [Step:'Checkout Siva01243/php-mysql-crud@master to s', TotalCommands:0, CommandResult:] [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunStepAsync] Step result: 'Checkout Siva01243/php-mysql-crud@master to s', Result:  [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunStepAsync] Step execution summary - Step: 'Checkout Siva01243/php-mysql-crud@master to s', FinalResult: Succeeded [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunStepWithTimeoutAsync] Worker timeout registration disposed for step: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunAsync] RunStepAsync execution completed for step: 'Checkout Siva01243/php-mysql-crud@master to s' - Result: Succeeded [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunAsync] Step cancellation registration cleanup [Step:'Checkout Siva01243/php-mysql-crud@master to s', RegistrationActive:True] [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunAsync] Job result unchanged - Step: 'Checkout Siva01243/php-mysql-crud@master to s', StepResult: Succeeded, JobResultKept: [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunAsync] Task step completion - TaskName:Checkout, StepIndex:1/4, Result: Succeeded, TaskStage:Main [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunAsync] Current state: job state = '' [STEP-af08acd5c28a]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunAsync] Processing step 2/4: DisplayName='Archive PHP MySQL CRUD App', ContinueOnError=False, Enabled=True
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunAsync] Processing step: DisplayName='Archive PHP MySQL CRUD App', ContinueOnError=False, Enabled=True [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunAsync] ExecutionContext startup initiated for step: 'Archive PHP MySQL CRUD App' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunAsync] Task step initiated [TaskName:ArchiveFiles, TaskId:d8b84976-e99a-4b86-b885-4849694435b0, Version:2.265.0, Stage:Main] [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunAsync] Variable expansion completed [Step:'Archive PHP MySQL CRUD App', Warnings:0, Target:None] [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunAsync] Job cancellation registration setup [Step:'Archive PHP MySQL CRUD App', JobCancellationRequested:False, RegistrationActive:True] [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO ExpressionManager] [Info] Evaluating: SucceededNode() [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO ExpressionManager] [Info] Result: True [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunAsync] Condition evaluation completed - Result: True, Step: 'Archive PHP MySQL CRUD App' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunAsync] RunStepAsync execution initiated for step: 'Archive PHP MySQL CRUD App' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunStepWithTimeoutAsync] Individual step execution initiated: 'Archive PHP MySQL CRUD App' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunStepWithTimeoutAsync] Worker timeout registration active for step: 'Archive PHP MySQL CRUD App' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunStepAsync] Individual step execution initiated: 'Archive PHP MySQL CRUD App' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunStepAsync] UTF-8 codepage switching initiated for step: 'Archive PHP MySQL CRUD App' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunStepAsync] UTF-8 codepage switching completed for step: 'Archive PHP MySQL CRUD App' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunStepAsync] Codepage configuration [Platform:Windows, RetainEncoding:False, CurrentCodepage:65001] [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO StepsRunner] [RunStepAsync] Step main execution initiated: 'Archive PHP MySQL CRUD App' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsync] Task execution initiated - Task: 'ArchiveFiles@2.265.0', Stage: Main [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsync] Core task execution initiated - transitioning to RunAsyncInternal() [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Task execution pipeline initiated - Task: 'ArchiveFiles@2.265.0', Stage: Main [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Task definition loading initiated - Task: 'ArchiveFiles@2.265.0', TaskId: 'd8b84976-e99a-4b86-b885-4849694435b0', Stage: 'Main' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO HostContext] [GetDirectory] Well known directory 'Tasks': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO HostContext] [GetDirectory] Well known directory 'TaskZips': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_taskzips' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskManager] [GetTaskDefiniton] Loading task definition 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks\ArchiveFiles_d8b84976-e99a-4b86-b885-4849694435b0\2.265.0\task.json'. [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [GetHandlerData] Handler selection initiated - Available handlers: 3 [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [GetHandlerData] Get handler data for target platform Windows [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Handler selected successfully - Type: Microsoft.VisualStudio.Services.Agent.Worker.Node20_1HandlerData [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [LoadDefaultInputs] Task input loading completed - 9 inputs for available [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Loading instance inputs - Processing 5 instance inputs [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Processing instance input: 'rootFolderOrFile' : $(Build.SourcesDirectory) [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Processing instance input: 'includeRootFolder' : false [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Processing instance input: 'archiveType' : zip [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Processing instance input: 'archiveFile' : $(Build.ArtifactStagingDirectory)/php-mysql-crud.zip [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Processing instance input: 'replaceExistingArchive' : true [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Instance input merging completed - Total processed inputs: 9 [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Security validation completed - No secret injection detected [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [TranslateFilePathInput] The original input is a rooted path, return absolute path: C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\1\s [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [TranslateFilePathInput] The original input is a rooted path, return absolute path: C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\1\a\php-mysql-crud.zip [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Environment setup completed - Loaded 0 environment variables [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Service endpoint processing completed - Found 0 endpoint references [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Endpoint resolution initiated - Resolving endpoint references [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Endpoint resolution completed - Resolved 1 endpoints, Endpoints: SystemVssConnection [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Secure file processing initiated - Extracting secure file references [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Secure file processing completed - Found 0 secure file references [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Secure file resolution initiated - Resolving secure file references [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Secure file resolution completed - Resolved 0 secure files. Secure Files:  [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Output variables setup completed - Configured 0 output variables [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO NodeHandler] [AfterExecutionContextInitialized] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Handler creation completed - Handler created: NodeHandler [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [IsCorrelationIdRequired] Current handler is Node. Trying to determing the SDK version. [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [IsCorrelationIdRequired] Node SDK version: 5.2.1. Correlation ID is required: True. [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Task handler execution initiated - Task: 'Archive PHP MySQL CRUD App', Retry count: 0 [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO TaskRunner] [RunAsyncInternal] Standard execution - Running handler without retry [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO NodeHandler] [RunAsync] AZP_AGENT_IGNORE_VSTSTASKLIB enabled, ignoring fix [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO NodeHandler] [GetNodeLocation] Task.json has node20_1 handler data: True node20ResultsInGlibCError = False [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:00Z INFO HostContext] [GetDirectory] Well known directory 'Externals': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\externals' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Externals': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\externals' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync] Starting process: [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   File name: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\externals\node20_1\bin\node.exe' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Arguments: '"C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks\ArchiveFiles_d8b84976-e99a-4b86-b885-4849694435b0\2.265.0\archivefiles.js"' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Working directory: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\1\s' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Require exit code zero: 'True' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Encoding web name: utf-8 ; code page: '65001' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Force kill process on cancellation: 'False' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Redirected STDIN: 'False' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Persist current code page: 'True' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Keep redirected STDIN open: 'False' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   High priority process: 'False' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   ContinueAfterCancelProcessTreeKillAttempt: 'True' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Sigint timeout: '00:00:07.5000000' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Sigterm timeout: '00:00:02.5000000' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Try to use graceful shutdown: False [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record 'af08acd5-c28a-5b03-f5a9-06f9a40627bb', success rate: 1/1.
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [DecreaseProcessPriority] OOM score adjustment is Linux-only. [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync] Process started, waiting for process exit. [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record '1733a1a9-cfbc-56ee-4962-ab8429b6f8a0', success rate: 1/1.
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [StartReadStream] STDOUT/STDERR stream read finished. [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [StartReadStream] STDOUT/STDERR stream read finished. [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ProcessExitedHandler] Exited process [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync] Finished process and elapsed time 00:00:00.4424675. [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Task handler execution completed - Task: 'Archive PHP MySQL CRUD App' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsync] Core task execution completed successfully - Task: 'Archive PHP MySQL CRUD App' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsync] Task information removed from user agent - Task: 'Archive PHP MySQL CRUD App' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunStepAsync] Step main execution completed successfully: 'Archive PHP MySQL CRUD App' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunStepAsync] Async command completion wait initiated for step: 'Archive PHP MySQL CRUD App' - Commands: 0 [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunStepAsync] Step async command summary [Step:'Archive PHP MySQL CRUD App', TotalCommands:0, CommandResult:] [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunStepAsync] Step result: 'Archive PHP MySQL CRUD App', Result: Succeeded [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunStepAsync] Step execution summary - Step: 'Archive PHP MySQL CRUD App', FinalResult: Succeeded [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunStepWithTimeoutAsync] Worker timeout registration disposed for step: 'Archive PHP MySQL CRUD App' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunAsync] RunStepAsync execution completed for step: 'Archive PHP MySQL CRUD App' - Result: Succeeded [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunAsync] Step cancellation registration cleanup [Step:'Archive PHP MySQL CRUD App', RegistrationActive:True] [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunAsync] Job result unchanged - Step: 'Archive PHP MySQL CRUD App', StepResult: Succeeded, JobResultKept: [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunAsync] Task step completion - TaskName:ArchiveFiles, StepIndex:2/4, Result: Succeeded, TaskStage:Main [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunAsync] Current state: job state = '' [STEP-1733a1a9cfbc]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunAsync] Processing step 3/4: DisplayName='Publish Artifact', ContinueOnError=False, Enabled=True
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunAsync] Processing step: DisplayName='Publish Artifact', ContinueOnError=False, Enabled=True [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunAsync] ExecutionContext startup initiated for step: 'Publish Artifact' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunAsync] Task step initiated [TaskName:PublishBuildArtifacts, TaskId:2ff763a7-ce83-4e1f-bc89-0ae63477cebe, Version:1.247.1, Stage:Main] [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunAsync] Variable expansion completed [Step:'Publish Artifact', Warnings:0, Target:None] [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunAsync] Job cancellation registration setup [Step:'Publish Artifact', JobCancellationRequested:False, RegistrationActive:True] [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ExpressionManager] [Info] Evaluating: SucceededNode() [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ExpressionManager] [Info] Result: True [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunAsync] Condition evaluation completed - Result: True, Step: 'Publish Artifact' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunAsync] RunStepAsync execution initiated for step: 'Publish Artifact' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunStepWithTimeoutAsync] Individual step execution initiated: 'Publish Artifact' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunStepWithTimeoutAsync] Worker timeout registration active for step: 'Publish Artifact' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunStepAsync] Individual step execution initiated: 'Publish Artifact' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunStepAsync] UTF-8 codepage switching initiated for step: 'Publish Artifact' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunStepAsync] UTF-8 codepage switching completed for step: 'Publish Artifact' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunStepAsync] Codepage configuration [Platform:Windows, RetainEncoding:False, CurrentCodepage:65001] [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO StepsRunner] [RunStepAsync] Step main execution initiated: 'Publish Artifact' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsync] Task execution initiated - Task: 'PublishBuildArtifacts@1.247.1', Stage: Main [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsync] Core task execution initiated - transitioning to RunAsyncInternal() [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Task execution pipeline initiated - Task: 'PublishBuildArtifacts@1.247.1', Stage: Main [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Task definition loading initiated - Task: 'PublishBuildArtifacts@1.247.1', TaskId: '2ff763a7-ce83-4e1f-bc89-0ae63477cebe', Stage: 'Main' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Tasks': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'TaskZips': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_taskzips' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskManager] [GetTaskDefiniton] Loading task definition 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks\PublishBuildArtifacts_2ff763a7-ce83-4e1f-bc89-0ae63477cebe\1.247.1\task.json'. [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [GetHandlerData] Handler selection initiated - Available handlers: 3 [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [GetHandlerData] Get handler data for target platform Windows [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Handler selected successfully - Type: Microsoft.VisualStudio.Services.Agent.Worker.Node20_1HandlerData [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [LoadDefaultInputs] Task input loading completed - 8 inputs for available [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Loading instance inputs - Processing 2 instance inputs [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Processing instance input: 'pathToPublish' : $(Build.ArtifactStagingDirectory) [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Processing instance input: 'artifactName' : drop [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Instance input merging completed - Total processed inputs: 8 [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Security validation completed - No secret injection detected [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [TranslateFilePathInput] The original input is a rooted path, return absolute path: C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\1\a [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Environment setup completed - Loaded 0 environment variables [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Service endpoint processing completed - Found 0 endpoint references [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Endpoint resolution initiated - Resolving endpoint references [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Endpoint resolution completed - Resolved 1 endpoints, Endpoints: SystemVssConnection [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Secure file processing initiated - Extracting secure file references [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Secure file processing completed - Found 0 secure file references [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Secure file resolution initiated - Resolving secure file references [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Secure file resolution completed - Resolved 0 secure files. Secure Files:  [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Output variables setup completed - Configured 0 output variables [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO NodeHandler] [AfterExecutionContextInitialized] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Handler creation completed - Handler created: NodeHandler [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [IsCorrelationIdRequired] Current handler is Node. Trying to determing the SDK version. [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [IsCorrelationIdRequired] Node SDK version: 4.16.0. Correlation ID is required: True. [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Task handler execution initiated - Task: 'Publish Artifact', Retry count: 0 [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO TaskRunner] [RunAsyncInternal] Standard execution - Running handler without retry [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO NodeHandler] [RunAsync] AZP_AGENT_IGNORE_VSTSTASKLIB enabled, ignoring fix [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO NodeHandler] [GetNodeLocation] Task.json has node20_1 handler data: True node20ResultsInGlibCError = False [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Externals': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\externals' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO HostContext] [GetDirectory] Well known directory 'Externals': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\externals' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync] Starting process: [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   File name: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\externals\node20_1\bin\node.exe' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Arguments: '"C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks\PublishBuildArtifacts_2ff763a7-ce83-4e1f-bc89-0ae63477cebe\1.247.1\publishbuildartifacts.js"' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Working directory: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\1\s' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Require exit code zero: 'True' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Encoding web name: utf-8 ; code page: '65001' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Force kill process on cancellation: 'False' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Redirected STDIN: 'False' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Persist current code page: 'True' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Keep redirected STDIN open: 'False' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   High priority process: 'False' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   ContinueAfterCancelProcessTreeKillAttempt: 'True' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Sigint timeout: '00:00:07.5000000' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Sigterm timeout: '00:00:02.5000000' [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Try to use graceful shutdown: False [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [DecreaseProcessPriority] OOM score adjustment is Linux-only. [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ExecuteAsync] Process started, waiting for process exit. [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [StartReadStream] STDOUT/STDERR stream read finished. [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [StartReadStream] STDOUT/STDERR stream read finished. [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO ProcessInvokerWrapper] [ProcessExitedHandler] Exited process [STEP-c5799012d252]
+[2026-01-07 13:20:01Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record '1733a1a9-cfbc-56ee-4962-ab8429b6f8a0', success rate: 1/1.
+[2026-01-07 13:20:02Z INFO ProcessInvokerWrapper] [ExecuteAsync] Finished process and elapsed time 00:00:00.4696185. [STEP-c5799012d252]
+[2026-01-07 13:20:02Z INFO TaskRunner] [RunAsyncInternal] Task handler execution completed - Task: 'Publish Artifact' [STEP-c5799012d252]
+[2026-01-07 13:20:02Z INFO TaskRunner] [RunAsync] Core task execution completed successfully - Task: 'Publish Artifact' [STEP-c5799012d252]
+[2026-01-07 13:20:02Z INFO TaskRunner] [RunAsync] Task information removed from user agent - Task: 'Publish Artifact' [STEP-c5799012d252]
+[2026-01-07 13:20:02Z INFO StepsRunner] [RunStepAsync] Step main execution completed successfully: 'Publish Artifact' [STEP-c5799012d252]
+[2026-01-07 13:20:02Z INFO StepsRunner] [RunStepAsync] Async command completion wait initiated for step: 'Publish Artifact' - Commands: 1 [STEP-c5799012d252]
+[2026-01-07 13:20:02Z INFO StepsRunner] [RunStepAsync] Step async command initiated [Command:Upload Artifact, Step:'Publish Artifact', CommandType:AsyncCommandContext] [STEP-c5799012d252]
+[2026-01-07 13:20:02Z INFO AsyncCommandContext] [WaitAsync] Start flush buffered output. [STEP-c5799012d252]
+[2026-01-07 13:20:02Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record 'c5799012-d252-50c1-2200-2d285327a1f0', success rate: 1/1.
+[2026-01-07 13:20:02Z WARN VisualStudioServices] [OnEventWritten] Attempt 1 of POST request to https://vsblobprodcin1.vsblob.visualstudio.com/A9f5aee28-3dcc-4219-a2b5-7da965f7a6e5/_apis/blob/blobs/A2169244BDFEFBCFDE2060F4D56B46EDF641F0B73D9F0EB11265160DAB8A7BFC00 failed (HTTP Status: ServiceUnavailable, AFD Ref: Ref A: 759F7346673D4000A363DF5FFAF10223 Ref B: MAA201060515051 Ref C: 2026-01-07T13:20:02Z). The operation will be retried in 10.8510389 seconds.
+[2026-01-07 13:20:02Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record 'c5799012-d252-50c1-2200-2d285327a1f0', success rate: 1/1.
+[2026-01-07 13:20:03Z ERR  VisualStudioServices] [OnEventWritten] PUT request to https://vsblobprodcin1.vsblob.visualstudio.com/A9f5aee28-3dcc-4219-a2b5-7da965f7a6e5/_apis/dedup/nodes/748F85702E5B437D05E7211EC021D5D73500C030F4082E5121B274980B43926602 failed. HTTP Status: Conflict, AFD Ref: Ref A: E7A9606C3B504E768FBF30DEBED411DA Ref B: MAA201060516025 Ref C: 2026-01-07T13:20:03Z [STEP-c5799012d252]
+[2026-01-07 13:20:03Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record 'c5799012-d252-50c1-2200-2d285327a1f0', success rate: 1/1.
+[2026-01-07 13:20:07Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record 'c5799012-d252-50c1-2200-2d285327a1f0', success rate: 1/1.
+[2026-01-07 13:20:07Z INFO VisualStudioServices] [OnEventWritten] Starting operation Location.GetConnectionData [STEP-c5799012d252]
+[2026-01-07 13:20:07Z INFO VisualStudioServices] [OnEventWritten] Finished operation Location.GetConnectionData [STEP-c5799012d252]
+[2026-01-07 13:20:07Z INFO AsyncCommandContext] [WaitAsync] Finsh flush buffered output. [STEP-c5799012d252]
+[2026-01-07 13:20:07Z INFO AsyncCommandContext] [WaitAsync] Wait till async command task to finish. [STEP-c5799012d252]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunStepAsync] Step async command completion [Command:Upload Artifact] [STEP-c5799012d252]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunStepAsync] Step async command summary [Step:'Publish Artifact', TotalCommands:1, CommandResult:] [STEP-c5799012d252]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunStepAsync] Step result: 'Publish Artifact', Result:  [STEP-c5799012d252]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunStepAsync] Step execution summary - Step: 'Publish Artifact', FinalResult: Succeeded [STEP-c5799012d252]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunStepWithTimeoutAsync] Worker timeout registration disposed for step: 'Publish Artifact' [STEP-c5799012d252]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunAsync] RunStepAsync execution completed for step: 'Publish Artifact' - Result: Succeeded [STEP-c5799012d252]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunAsync] Step cancellation registration cleanup [Step:'Publish Artifact', RegistrationActive:True] [STEP-c5799012d252]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunAsync] Job result unchanged - Step: 'Publish Artifact', StepResult: Succeeded, JobResultKept: [STEP-c5799012d252]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunAsync] Task step completion - TaskName:PublishBuildArtifacts, StepIndex:3/4, Result: Succeeded, TaskStage:Main [STEP-c5799012d252]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunAsync] Current state: job state = '' [STEP-c5799012d252]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunAsync] Processing step 4/4: DisplayName='Checkout Siva01243/php-mysql-crud@master to s', ContinueOnError=False, Enabled=True
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunAsync] Processing step: DisplayName='Checkout Siva01243/php-mysql-crud@master to s', ContinueOnError=False, Enabled=True [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunAsync] ExecutionContext startup initiated for step: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunAsync] Task step initiated [TaskName:Checkout, TaskId:6d15af64-176c-496d-b583-fd2ae21d4df4, Version:1.0.0, Stage:PostJob] [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunAsync] Variable expansion completed [Step:'Checkout Siva01243/php-mysql-crud@master to s', Warnings:0, Target:None] [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunAsync] Job cancellation registration setup [Step:'Checkout Siva01243/php-mysql-crud@master to s', JobCancellationRequested:False, RegistrationActive:True] [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ExpressionManager] [Info] Evaluating: AlwaysNode() [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ExpressionManager] [Info] Result: True [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunAsync] Condition evaluation completed - Result: True, Step: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunAsync] RunStepAsync execution initiated for step: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunStepWithTimeoutAsync] Individual step execution initiated: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunStepWithTimeoutAsync] Worker timeout registration active for step: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunStepAsync] Individual step execution initiated: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunStepAsync] UTF-8 codepage switching initiated for step: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunStepAsync] UTF-8 codepage switching completed for step: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunStepAsync] Codepage configuration [Platform:Windows, RetainEncoding:False, CurrentCodepage:65001] [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO StepsRunner] [RunStepAsync] Step main execution initiated: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsync] Task execution initiated - Task: 'Checkout@1.0.0', Stage: PostJob [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsync] Core task execution initiated - transitioning to RunAsyncInternal() [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Task execution pipeline initiated - Task: 'Checkout@1.0.0', Stage: PostJob [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Task definition loading initiated - Task: 'Checkout@1.0.0', TaskId: '6d15af64-176c-496d-b583-fd2ae21d4df4', Stage: 'PostJob' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO HostContext] [GetDirectory] Well known directory 'Tasks': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_tasks' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [GetHandlerData] Handler selection initiated - Available handlers: 1 [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [GetHandlerData] Get handler data for target platform Windows [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Handler selected successfully - Type: Microsoft.VisualStudio.Services.Agent.Worker.AgentPluginHandlerData [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [LoadDefaultInputs] Task input loading completed - 10 inputs for available [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Loading instance inputs - Processing 2 instance inputs [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Processing instance input: 'repository' : self [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Processing instance input: 'fetchDepth' : 1 [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Instance input merging completed - Total processed inputs: 10 [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Security validation completed - No secret injection detected [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Environment setup completed - Loaded 0 environment variables [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Service endpoint processing completed - Found 0 endpoint references [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Endpoint resolution initiated - Resolving endpoint references [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Endpoint resolution completed - Resolved 1 endpoints, Endpoints: SystemVssConnection [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Secure file processing initiated - Extracting secure file references [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Secure file processing completed - Found 0 secure file references [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Secure file resolution initiated - Resolving secure file references [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Secure file resolution completed - Resolved 0 secure files. Secure Files:  [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Output variables setup completed - Configured 0 output variables [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO AgentPluginHandler] [AfterExecutionContextInitialized] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Handler creation completed - Handler created: AgentPluginHandler [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Task handler execution initiated - Task: 'Checkout Siva01243/php-mysql-crud@master to s', Retry count: 0 [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO TaskRunner] [RunAsyncInternal] Standard execution - Running handler without retry [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO WorkerCommandManager] [EnablePluginInternalCommand] Enable plugin internal command extension. [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync] Starting process: [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync]   File name: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin\Agent.PluginHost.exe' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Arguments: 'task "Agent.Plugins.Repository.CleanupTask, Agent.Plugins"' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Working directory: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Require exit code zero: 'True' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Encoding web name: utf-8 ; code page: '65001' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Force kill process on cancellation: 'False' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Redirected STDIN: 'True' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Persist current code page: 'False' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Keep redirected STDIN open: 'False' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync]   High priority process: 'False' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync]   ContinueAfterCancelProcessTreeKillAttempt: 'False' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Sigint timeout: '00:00:07.5000000' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Sigterm timeout: '00:00:02.5000000' [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync]   Try to use graceful shutdown: False [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [DecreaseProcessPriority] OOM score adjustment is Linux-only. [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [ExecuteAsync] Process started, waiting for process exit. [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [StartWriteStream] Close STDIN after the first redirect finished. [STEP-041da97074ed]
+[2026-01-07 13:20:07Z INFO ProcessInvokerWrapper] [StartWriteStream] STDIN stream write finished. [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO ProcessInvokerWrapper] [StartReadStream] STDOUT/STDERR stream read finished. [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO ProcessInvokerWrapper] [StartReadStream] STDOUT/STDERR stream read finished. [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record 'c5799012-d252-50c1-2200-2d285327a1f0', success rate: 1/1.
+[2026-01-07 13:20:08Z INFO ProcessInvokerWrapper] [ProcessExitedHandler] Exited process [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO ProcessInvokerWrapper] [ExecuteAsync] Finished process and elapsed time 00:00:00.6249513. [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO WorkerCommandManager] [EnablePluginInternalCommand] Disable plugin internal command extension. [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO TaskRunner] [RunAsyncInternal] Task handler execution completed - Task: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO TaskRunner] [RunAsync] Core task execution completed successfully - Task: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO TaskRunner] [RunAsync] Task information removed from user agent - Task: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO StepsRunner] [RunStepAsync] Step main execution completed successfully: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO StepsRunner] [RunStepAsync] Async command completion wait initiated for step: 'Checkout Siva01243/php-mysql-crud@master to s' - Commands: 0 [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO StepsRunner] [RunStepAsync] Step async command summary [Step:'Checkout Siva01243/php-mysql-crud@master to s', TotalCommands:0, CommandResult:] [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO StepsRunner] [RunStepAsync] Step result: 'Checkout Siva01243/php-mysql-crud@master to s', Result:  [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO StepsRunner] [RunStepAsync] Step execution summary - Step: 'Checkout Siva01243/php-mysql-crud@master to s', FinalResult: Succeeded [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO StepsRunner] [RunStepWithTimeoutAsync] Worker timeout registration disposed for step: 'Checkout Siva01243/php-mysql-crud@master to s' [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO StepsRunner] [RunAsync] RunStepAsync execution completed for step: 'Checkout Siva01243/php-mysql-crud@master to s' - Result: Succeeded [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO StepsRunner] [RunAsync] Step cancellation registration cleanup [Step:'Checkout Siva01243/php-mysql-crud@master to s', RegistrationActive:True] [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO StepsRunner] [RunAsync] Job result unchanged - Step: 'Checkout Siva01243/php-mysql-crud@master to s', StepResult: Succeeded, JobResultKept: [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO StepsRunner] [RunAsync] Task step completion - TaskName:Checkout, StepIndex:4/4, Result: Succeeded, TaskStage:PostJob [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO StepsRunner] [RunAsync] Current state: job state = '' [STEP-041da97074ed]
+[2026-01-07 13:20:08Z INFO StepsRunner] [RunAsync] Step iteration loop completed - All 4 steps processed, Final job result:
+[2026-01-07 13:20:08Z INFO JobRunner] [RunAsync] Step execution pipeline completed successfully - all job steps finished execution
+[2026-01-07 13:20:08Z INFO JobRunner] [RunAsync] Finalize job.
+[2026-01-07 13:20:08Z INFO ExecutionContext] [Initialize] Logs streaming mode: StreamToServer
+[2026-01-07 13:20:08Z INFO HostContext] [GetDirectory] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:20:08Z INFO HostContext] [GetDirectory] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:20:08Z INFO HostContext] [GetDirectory] Well known directory 'Work': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work'
+[2026-01-07 13:20:08Z INFO BuildJobExtension] [SnapshotProcesses] Total accessible running process: 302.
+[2026-01-07 13:20:08Z INFO JobRunner] [RunAsync] Job result after all job steps finish: Succeeded
+[2026-01-07 13:20:08Z INFO JobRunner] [RunAsync] Completing the job execution context.
+[2026-01-07 13:20:08Z INFO JobRunner] [CompleteJobAsync] Job finalization initiated - Job: 'Job', JobId: 12f1170f-54f2-53f3-20dd-22fc7dff55f9
+[2026-01-07 13:20:08Z INFO JobRunner] [CompleteJobAsync] Job result calculation completed - Final result: Succeeded
+[2026-01-07 13:20:08Z INFO JobRunner] [ShutdownQueue] Shutting down the job server queue.
+[2026-01-07 13:20:08Z INFO JobServerQueue] [ShutdownAsync] Fire signal to shutdown all queues.
+[2026-01-07 13:20:08Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record '041da970-74ed-40dc-a7c3-cfc02003be81', success rate: 1/1.
+[2026-01-07 13:20:14Z INFO JobServerQueue] [ProcessFilesUploadQueueAsync] Try to upload 1 log files or attachments, success rate: 1/1.
+[2026-01-07 13:20:15Z INFO JobServerQueue] [ShutdownAsync] All queue process task stopped.
+[2026-01-07 13:20:15Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record '041da970-74ed-40dc-a7c3-cfc02003be81', success rate: 1/1.
+[2026-01-07 13:20:15Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record '9ca8b82e-3c59-4d83-a288-c934db53feda', success rate: 1/1.
+[2026-01-07 13:20:15Z INFO JobServerQueue] [ProcessWebConsoleLinesQueueAsync] Try to append 1 batches web console lines for record '12f1170f-54f2-53f3-20dd-22fc7dff55f9', success rate: 1/1.
+[2026-01-07 13:20:15Z INFO JobServerQueue] [ShutdownAsync] Web console line queue drained.
+[2026-01-07 13:20:15Z INFO JobServerQueue] [ProcessFilesUploadQueueAsync] Uploading 5 files in one shot.
+[2026-01-07 13:20:21Z INFO JobServerQueue] [ProcessFilesUploadQueueAsync] Try to upload 5 log files or attachments, success rate: 5/5.
+[2026-01-07 13:20:21Z INFO JobServerQueue] [ShutdownAsync] File upload queue drained.
+[2026-01-07 13:20:21Z INFO JobServerQueue] [ShutdownAsync] Timeline update queue drained.
+[2026-01-07 13:20:21Z INFO JobServerQueue] [ShutdownAsync] All queue process tasks have been stopped, and all queues are drained.
+[2026-01-07 13:20:21Z INFO JobRunner] [CompleteJobAsync] Job extension finalization completed - Job server queue shutdown successful
+[2026-01-07 13:20:21Z INFO TempDirectoryManager] [CleanupTempDirectory] Cleaning agent temp folder: C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\_work\_temp
+[2026-01-07 13:20:21Z INFO JobRunner] [CompleteJobAsync] Resource disposal completed - Temporary directory cleanup finished
+[2026-01-07 13:20:21Z INFO JobRunner] [CompleteJobAsync] Timeline record updates initiated - Raising job completed event for JobId: 12f1170f-54f2-53f3-20dd-22fc7dff55f9
+[2026-01-07 13:20:21Z INFO JobRunner] [CompleteJobAsync] Raising job completed event.
+[2026-01-07 13:20:21Z INFO JobRunner] [CompleteJobAsync] Timeline record updates - Attempting completion event with retry limit: 5
+[2026-01-07 13:20:22Z INFO JobRunner] [CompleteJobAsync] Timeline record updates completed - Job completed event raised successfully - Final result: Succeeded
+[2026-01-07 13:20:22Z INFO JobRunner] [RunAsync] Job server queue shutdown completed - all resources cleaned up successfully
+[2026-01-07 13:20:22Z INFO Worker] [RunAsync] Worker process termination initiated - Cancelling channel communication
+[2026-01-07 13:20:22Z INFO Worker] [RunAsync] JobRunner completion detected - Job execution finished with result: 100
+[2026-01-07 13:20:22Z INFO Program] [Main] Worker process entry point completed [ExitCode:100]

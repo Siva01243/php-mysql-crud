@@ -1,0 +1,258 @@
+﻿[2026-01-07 13:08:26Z INFO HostContext] HTTP Trace Environment Variable: ''
+[2026-01-07 13:08:26Z INFO HostContext] HTTP trace not enabled - environment variable not set or false
+[2026-01-07 13:08:26Z VERB AgentProcess] Entering MainAsync
+[2026-01-07 13:08:26Z INFO AgentProcess] Agent package win-x64.
+[2026-01-07 13:08:26Z INFO AgentProcess] Running on Windows (X64).
+[2026-01-07 13:08:26Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.26100.
+[2026-01-07 13:08:26Z VERB Terminal] Entering Initialize
+[2026-01-07 13:08:26Z INFO AgentProcess] Version: 4.266.2
+[2026-01-07 13:08:26Z INFO AgentProcess] Commit: 8bd04534a6d7a6a1874cd11de367aa39f25fc9b2
+[2026-01-07 13:08:26Z INFO AgentProcess] Culture: en-IN
+[2026-01-07 13:08:26Z INFO AgentProcess] UI Culture: en-US
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:26Z INFO AgentProcess] Validating directory permissions for: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:26Z VERB AgentProcess] Configuring Windows-specific settings and validating prerequisites
+[2026-01-07 13:08:26Z VERB PowerShellExeUtil] Entering Initialize
+[2026-01-07 13:08:26Z VERB PowerShellExeUtil] Entering GetPath
+[2026-01-07 13:08:26Z VERB PowerShellExeUtil] Candidate generation: '1'
+[2026-01-07 13:08:26Z VERB PowerShellExeUtil] Candidate generation: '3'
+[2026-01-07 13:08:26Z INFO PowerShellExeUtil] Generation: '1'
+[2026-01-07 13:08:26Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion' is null.
+[2026-01-07 13:08:26Z INFO PowerShellExeUtil] Unable to determine the Powershell engine version.  Possibly Powershell is not installed.
+[2026-01-07 13:08:26Z INFO PowerShellExeUtil] Generation: '3'
+[2026-01-07 13:08:26Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.26100.1882'
+[2026-01-07 13:08:26Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2026-01-07 13:08:26Z INFO AgentProcess] PowerShell validation successful - compatible version found
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework', value name 'InstallRoot': 'C:\Windows\Microsoft.NET\Framework64\'
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP' contains sub keys:
+[2026-01-07 13:08:26Z INFO AgentProcess]  'CDF'
+[2026-01-07 13:08:26Z INFO AgentProcess]  'v2.0.50727'
+[2026-01-07 13:08:26Z INFO AgentProcess]  'v3.0'
+[2026-01-07 13:08:26Z INFO AgentProcess]  'v3.5'
+[2026-01-07 13:08:26Z INFO AgentProcess]  'v4'
+[2026-01-07 13:08:26Z INFO AgentProcess]  'v4.0'
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version': '2.0.50727.4927'
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install': '1'
+[2026-01-07 13:08:26Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2026-01-07 13:08:26Z INFO AgentProcess] Found version: 2.0.50727
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version': '3.0.30729.4926'
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install': '1'
+[2026-01-07 13:08:26Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2026-01-07 13:08:26Z INFO AgentProcess] Found version: 3.0
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version': '3.5.30729.4926'
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install': '1'
+[2026-01-07 13:08:26Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2026-01-07 13:08:26Z INFO AgentProcess] Found version: 3.5
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name 'Version' is null.
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name '' is null.
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP\v4' contains sub keys:
+[2026-01-07 13:08:26Z INFO AgentProcess]  'Client'
+[2026-01-07 13:08:26Z INFO AgentProcess]  'Full'
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version': '4.8.09032'
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install': '1'
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release': '533320'
+[2026-01-07 13:08:26Z INFO AgentProcess] Type is System.Int32
+[2026-01-07 13:08:26Z INFO AgentProcess] Interpreted version: 4.7.0
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version': '4.8.09032'
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install': '1'
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release': '533320'
+[2026-01-07 13:08:26Z INFO AgentProcess] Type is System.Int32
+[2026-01-07 13:08:26Z INFO AgentProcess] Interpreted version: 4.7.0
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version' is null.
+[2026-01-07 13:08:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name '': 'deprecated'
+[2026-01-07 13:08:26Z INFO AgentProcess] Found 5 versions:
+[2026-01-07 13:08:26Z INFO AgentProcess]  2.0.50727
+[2026-01-07 13:08:26Z INFO AgentProcess]  3.0
+[2026-01-07 13:08:26Z INFO AgentProcess]  3.5
+[2026-01-07 13:08:26Z INFO AgentProcess]  4.7.0
+[2026-01-07 13:08:26Z INFO AgentProcess]  4.7.0
+[2026-01-07 13:08:26Z INFO AgentProcess] Testing for min NET Framework version: '4.5'
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:26Z VERB PromptManager] Entering Initialize
+[2026-01-07 13:08:26Z INFO HostContext] Setting up value for origin: Remove.Password
+[2026-01-07 13:08:26Z INFO HostContext] Value is empty.
+[2026-01-07 13:08:26Z INFO HostContext] Setting up value for origin: Remove.Token
+[2026-01-07 13:08:26Z INFO HostContext] Value is empty.
+[2026-01-07 13:08:26Z INFO HostContext] Setting up value for origin: Remove.TenantId
+[2026-01-07 13:08:26Z INFO HostContext] Value is empty.
+[2026-01-07 13:08:26Z INFO HostContext] Setting up value for origin: Remove.ClientId
+[2026-01-07 13:08:26Z INFO HostContext] Value is empty.
+[2026-01-07 13:08:26Z INFO HostContext] Setting up value for origin: Remove.ClientSecret
+[2026-01-07 13:08:26Z INFO HostContext] Value is empty.
+[2026-01-07 13:08:26Z INFO CommandSettings] Remove {
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "ClientId": null,
+  "TenantId": null,
+  "ClientSecret": null,
+  "Help": false,
+  "Version": false
+}
+[2026-01-07 13:08:26Z INFO AgentProcess] Command line arguments parsed successfully - ready for command execution
+[2026-01-07 13:08:26Z VERB Agent] Entering Initialize
+[2026-01-07 13:08:26Z VERB AgentProcess] Delegating command execution to Agent service
+[2026-01-07 13:08:26Z VERB Agent] Entering ExecuteCommand
+[2026-01-07 13:08:26Z VERB Agent] Initializing core services...
+[2026-01-07 13:08:26Z VERB VstsAgentWebProxy] Entering Initialize
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:26Z INFO HostContext] Well known config file 'Proxy': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.proxy'
+[2026-01-07 13:08:26Z VERB VstsAgentWebProxy] Proxy address: 
+[2026-01-07 13:08:26Z INFO VstsAgentWebProxy] No proxy setting found.
+[2026-01-07 13:08:26Z VERB AgentCertificateManager] Entering Initialize
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:26Z INFO HostContext] Well known config file 'Certificates': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.certificates'
+[2026-01-07 13:08:26Z INFO AgentCertificateManager] No certificate setting found.
+[2026-01-07 13:08:26Z VERB ConfigurationManager] Entering Initialize
+[2026-01-07 13:08:26Z VERB ConfigurationManager] Creating _store
+[2026-01-07 13:08:26Z VERB ConfigurationStore] Entering Initialize
+[2026-01-07 13:08:26Z INFO ConfigurationStore] currentAssemblyLocation: {0}
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:26Z INFO ConfigurationStore] binPath: {0}
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:26Z INFO ConfigurationStore] RootFolder: {0}
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:26Z INFO HostContext] Well known config file 'Agent': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.agent'
+[2026-01-07 13:08:26Z INFO ConfigurationStore] ConfigFilePath: {0}
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:26Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials'
+[2026-01-07 13:08:26Z INFO ConfigurationStore] CredFilePath: {0}
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:26Z INFO HostContext] Well known config file 'Service': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.service'
+[2026-01-07 13:08:26Z INFO ConfigurationStore] ServiceConfigFilePath: {0}
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:26Z INFO HostContext] Well known config file 'Autologon': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.autologon'
+[2026-01-07 13:08:26Z INFO ConfigurationStore] AutoLogonSettingsFilePath: {0}
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:26Z INFO HostContext] Well known config file 'Options': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.options'
+[2026-01-07 13:08:26Z INFO ConfigurationStore] RuntimeOptionsFilePath: {0}
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:26Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:26Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.setup_info'
+[2026-01-07 13:08:26Z INFO ConfigurationStore] SetupInfoFilePath: {0}
+[2026-01-07 13:08:26Z VERB ConfigurationManager] store created
+[2026-01-07 13:08:26Z VERB LocationServer] Entering Initialize
+[2026-01-07 13:08:26Z INFO ConfigurationStore] IsServiceConfigured()
+[2026-01-07 13:08:26Z INFO ConfigurationStore] IsServiceConfigured: False
+[2026-01-07 13:08:26Z VERB ConfigurationStore] Entering IsAutoLogonConfigured
+[2026-01-07 13:08:26Z INFO ConfigurationStore] IsAutoLogonConfigured: False
+[2026-01-07 13:08:26Z INFO ConfigurationManager] AutoLogon was not configured on the agent.
+[2026-01-07 13:08:26Z INFO Terminal] WRITE LINE: Removing agent from the server
+[2026-01-07 13:08:26Z INFO ConfigurationStore] IsConfigured()
+[2026-01-07 13:08:26Z INFO ConfigurationStore] IsConfigured: True
+[2026-01-07 13:08:26Z INFO ConfigurationStore] HasCredentials()
+[2026-01-07 13:08:26Z INFO ConfigurationStore] stored True
+[2026-01-07 13:08:26Z INFO ConfigurationStore] Read setting file: 176 chars
+[2026-01-07 13:08:26Z VERB CredentialManager] Entering Initialize
+[2026-01-07 13:08:26Z INFO ConfigurationManager] GetCredentialProvider
+[2026-01-07 13:08:26Z INFO CommandSettings] Arg 'auth': ''
+[2026-01-07 13:08:26Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 13:08:26Z INFO PromptManager] ReadValue
+[2026-01-07 13:08:26Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2026-01-07 13:08:26Z INFO Terminal] READ LINE
+[2026-01-07 13:08:32Z INFO Terminal] Read value: 'PAT'
+[2026-01-07 13:08:32Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2026-01-07 13:08:32Z INFO CredentialManager] GetCredentialProvider
+[2026-01-07 13:08:32Z INFO CredentialManager] Creating type PAT
+[2026-01-07 13:08:32Z INFO CredentialManager] Creating credential type: PAT
+[2026-01-07 13:08:32Z VERB CredentialManager] Created credential type
+[2026-01-07 13:08:32Z INFO PersonalAccessToken] EnsureCredential
+[2026-01-07 13:08:32Z INFO CommandSettings] Arg 'token': ''
+[2026-01-07 13:08:32Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 13:08:32Z INFO PromptManager] ReadValue
+[2026-01-07 13:08:32Z INFO Terminal] WRITE: Enter personal access token > 
+[2026-01-07 13:08:32Z INFO Terminal] READ SECRET
+[2026-01-07 13:08:38Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2026-01-07 13:08:38Z INFO Terminal] Read value: '***'
+[2026-01-07 13:08:38Z INFO ConfigurationManager] cred retrieved
+[2026-01-07 13:08:38Z INFO ConfigurationManager] Agent configured for deploymentGroup : False
+[2026-01-07 13:08:38Z VERB ExtensionManager] Entering Initialize
+[2026-01-07 13:08:38Z INFO ExtensionManager] Getting extensions for interface: '{0}'
+[2026-01-07 13:08:38Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2026-01-07 13:08:38Z VERB BuildReleasesAgentConfigProvider] Entering Initialize
+[2026-01-07 13:08:38Z VERB AgentServer] Entering Initialize
+[2026-01-07 13:08:38Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2026-01-07 13:08:38Z VERB DeploymentGroupAgentConfigProvider] Entering Initialize
+[2026-01-07 13:08:38Z VERB DeploymentGroupServer] Entering Initialize
+[2026-01-07 13:08:38Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2026-01-07 13:08:38Z VERB SharedDeploymentAgentConfigProvider] Entering Initialize
+[2026-01-07 13:08:38Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2026-01-07 13:08:38Z VERB EnvironmentVMResourceConfigProvider] Entering Initialize
+[2026-01-07 13:08:38Z VERB EnvironmentsServer] Entering Initialize
+[2026-01-07 13:08:38Z INFO PersonalAccessToken] GetVssCredentials
+[2026-01-07 13:08:38Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2026-01-07 13:08:38Z INFO PersonalAccessToken] cred created
+[2026-01-07 13:08:38Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 13:08:38Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 13:08:38Z VERB VisualStudioServices] Created Basic issued token provider instance 17324607 (Basic)
+[2026-01-07 13:08:38Z VERB VisualStudioServices] Basic issued token provider instance 17324607 validated token instance 44200505
+[2026-01-07 13:08:38Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 13:08:39Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 13:08:39Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 13:08:39Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 13:08:39Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 13:08:39Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 13:08:39Z INFO PersonalAccessToken] GetVssCredentials
+[2026-01-07 13:08:39Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2026-01-07 13:08:39Z INFO PersonalAccessToken] cred created
+[2026-01-07 13:08:39Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2026-01-07 13:08:39Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2026-01-07 13:08:39Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 13:08:39Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 13:08:39Z VERB VisualStudioServices] Created Basic issued token provider instance 66521532 (Basic)
+[2026-01-07 13:08:39Z VERB VisualStudioServices] Basic issued token provider instance 66521532 validated token instance 30223245
+[2026-01-07 13:08:39Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 13:08:39Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 13:08:39Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2026-01-07 13:08:39Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 13:08:39Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 13:08:39Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2026-01-07 13:08:39Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 13:08:39Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 13:08:40Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 13:08:40Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 13:08:40Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 13:08:40Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 13:08:40Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools/10/agents
+[2026-01-07 13:08:40Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools/10/agents with status code 200
+[2026-01-07 13:08:40Z VERB BuildReleasesAgentConfigProvider] Returns 1 agents
+[2026-01-07 13:08:40Z VERB VisualStudioServices] Started DELETE request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools/10/agents/9
+[2026-01-07 13:08:40Z VERB VisualStudioServices] Finished DELETE request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools/10/agents/9 with status code 204
+[2026-01-07 13:08:40Z INFO Terminal] WRITE LINE: Succeeded: Removing agent from the server
+[2026-01-07 13:08:40Z INFO Terminal] WRITE LINE: Removing .credentials
+[2026-01-07 13:08:40Z VERB RSAEncryptedFileKeyManager] Entering Initialize
+[2026-01-07 13:08:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:40Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials_rsaparams'
+[2026-01-07 13:08:40Z INFO RSAEncryptedFileKeyManager] Deleting RSA key parameters file C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials_rsaparams
+[2026-01-07 13:08:40Z INFO Terminal] WRITE LINE: Succeeded: Removing .credentials
+[2026-01-07 13:08:40Z INFO Terminal] WRITE LINE: Removing .agent
+[2026-01-07 13:08:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:40Z INFO HostContext] Well known config file 'ProxyCredentials': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.proxycredentials'
+[2026-01-07 13:08:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:40Z INFO HostContext] Well known config file 'ProxyBypass': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.proxybypass'
+[2026-01-07 13:08:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:40Z INFO HostContext] Well known config file 'Proxy': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.proxy'
+[2026-01-07 13:08:40Z INFO VstsAgentWebProxy] Delete .proxy file: C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.proxy
+[2026-01-07 13:08:40Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 13:08:40Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 13:08:40Z INFO HostContext] Well known config file 'Certificates': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.certificates'
+[2026-01-07 13:08:40Z INFO Terminal] WRITE LINE: Succeeded: Removing .agent

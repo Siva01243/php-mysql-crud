@@ -1,0 +1,420 @@
+﻿[2026-01-07 12:56:25Z INFO HostContext] HTTP Trace Environment Variable: ''
+[2026-01-07 12:56:25Z INFO HostContext] HTTP trace not enabled - environment variable not set or false
+[2026-01-07 12:56:25Z VERB AgentProcess] Entering MainAsync
+[2026-01-07 12:56:25Z INFO AgentProcess] Agent package win-x64.
+[2026-01-07 12:56:25Z INFO AgentProcess] Running on Windows (X64).
+[2026-01-07 12:56:25Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.26100.
+[2026-01-07 12:56:25Z VERB Terminal] Entering Initialize
+[2026-01-07 12:56:25Z INFO AgentProcess] Version: 4.266.2
+[2026-01-07 12:56:25Z INFO AgentProcess] Commit: 8bd04534a6d7a6a1874cd11de367aa39f25fc9b2
+[2026-01-07 12:56:25Z INFO AgentProcess] Culture: en-IN
+[2026-01-07 12:56:25Z INFO AgentProcess] UI Culture: en-US
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 12:56:25Z INFO AgentProcess] Validating directory permissions for: 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 12:56:25Z VERB AgentProcess] Configuring Windows-specific settings and validating prerequisites
+[2026-01-07 12:56:25Z VERB PowerShellExeUtil] Entering Initialize
+[2026-01-07 12:56:25Z VERB PowerShellExeUtil] Entering GetPath
+[2026-01-07 12:56:25Z VERB PowerShellExeUtil] Candidate generation: '1'
+[2026-01-07 12:56:25Z VERB PowerShellExeUtil] Candidate generation: '3'
+[2026-01-07 12:56:25Z INFO PowerShellExeUtil] Generation: '1'
+[2026-01-07 12:56:25Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion' is null.
+[2026-01-07 12:56:25Z INFO PowerShellExeUtil] Unable to determine the Powershell engine version.  Possibly Powershell is not installed.
+[2026-01-07 12:56:25Z INFO PowerShellExeUtil] Generation: '3'
+[2026-01-07 12:56:25Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.26100.1882'
+[2026-01-07 12:56:25Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2026-01-07 12:56:25Z INFO AgentProcess] PowerShell validation successful - compatible version found
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework', value name 'InstallRoot': 'C:\Windows\Microsoft.NET\Framework64\'
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP' contains sub keys:
+[2026-01-07 12:56:25Z INFO AgentProcess]  'CDF'
+[2026-01-07 12:56:25Z INFO AgentProcess]  'v2.0.50727'
+[2026-01-07 12:56:25Z INFO AgentProcess]  'v3.0'
+[2026-01-07 12:56:25Z INFO AgentProcess]  'v3.5'
+[2026-01-07 12:56:25Z INFO AgentProcess]  'v4'
+[2026-01-07 12:56:25Z INFO AgentProcess]  'v4.0'
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version': '2.0.50727.4927'
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install': '1'
+[2026-01-07 12:56:25Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2026-01-07 12:56:25Z INFO AgentProcess] Found version: 2.0.50727
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version': '3.0.30729.4926'
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install': '1'
+[2026-01-07 12:56:25Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2026-01-07 12:56:25Z INFO AgentProcess] Found version: 3.0
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version': '3.5.30729.4926'
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install': '1'
+[2026-01-07 12:56:25Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2026-01-07 12:56:25Z INFO AgentProcess] Found version: 3.5
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name 'Version' is null.
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name '' is null.
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP\v4' contains sub keys:
+[2026-01-07 12:56:25Z INFO AgentProcess]  'Client'
+[2026-01-07 12:56:25Z INFO AgentProcess]  'Full'
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version': '4.8.09032'
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install': '1'
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release': '533320'
+[2026-01-07 12:56:25Z INFO AgentProcess] Type is System.Int32
+[2026-01-07 12:56:25Z INFO AgentProcess] Interpreted version: 4.7.0
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version': '4.8.09032'
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install': '1'
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release': '533320'
+[2026-01-07 12:56:25Z INFO AgentProcess] Type is System.Int32
+[2026-01-07 12:56:25Z INFO AgentProcess] Interpreted version: 4.7.0
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version' is null.
+[2026-01-07 12:56:25Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name '': 'deprecated'
+[2026-01-07 12:56:25Z INFO AgentProcess] Found 5 versions:
+[2026-01-07 12:56:25Z INFO AgentProcess]  2.0.50727
+[2026-01-07 12:56:25Z INFO AgentProcess]  3.0
+[2026-01-07 12:56:25Z INFO AgentProcess]  3.5
+[2026-01-07 12:56:25Z INFO AgentProcess]  4.7.0
+[2026-01-07 12:56:25Z INFO AgentProcess]  4.7.0
+[2026-01-07 12:56:25Z INFO AgentProcess] Testing for min NET Framework version: '4.5'
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 12:56:25Z VERB PromptManager] Entering Initialize
+[2026-01-07 12:56:25Z INFO HostContext] Setting up value for origin: Configure.Password
+[2026-01-07 12:56:25Z INFO HostContext] Value is empty.
+[2026-01-07 12:56:25Z INFO HostContext] Setting up value for origin: Configure.ProxyPassword
+[2026-01-07 12:56:25Z INFO HostContext] Value is empty.
+[2026-01-07 12:56:25Z INFO HostContext] Setting up value for origin: Configure.SslClientCert
+[2026-01-07 12:56:25Z INFO HostContext] Value is empty.
+[2026-01-07 12:56:25Z INFO HostContext] Setting up value for origin: Configure.Token
+[2026-01-07 12:56:25Z INFO HostContext] Value is empty.
+[2026-01-07 12:56:25Z INFO HostContext] Setting up value for origin: Configure.WindowsLogonPassword
+[2026-01-07 12:56:25Z INFO HostContext] Value is empty.
+[2026-01-07 12:56:25Z INFO HostContext] Setting up value for origin: Configure.TenantId
+[2026-01-07 12:56:25Z INFO HostContext] Value is empty.
+[2026-01-07 12:56:25Z INFO HostContext] Setting up value for origin: Configure.ClientId
+[2026-01-07 12:56:25Z INFO HostContext] Value is empty.
+[2026-01-07 12:56:25Z INFO HostContext] Setting up value for origin: Configure.ClientSecret
+[2026-01-07 12:56:25Z INFO HostContext] Value is empty.
+[2026-01-07 12:56:25Z INFO CommandSettings] Configure {
+  "AcceptTeeEula": false,
+  "AddDeploymentGroupTags": false,
+  "AddEnvironmentVirtualMachineResourceTags": false,
+  "AddMachineGroupTags": false,
+  "AlwaysExtractTask": false,
+  "Agent": null,
+  "CollectionName": null,
+  "DeploymentGroup": false,
+  "DeploymentGroupName": null,
+  "DeploymentGroupTags": null,
+  "DeploymentPool": false,
+  "DeploymentPoolName": null,
+  "EnableServiceSidTypeUnrestricted": false,
+  "EnvironmentVMResource": false,
+  "EnvironmentName": null,
+  "EnvironmentVMResourceTags": null,
+  "GitUseSChannel": false,
+  "DisableLogUploads": false,
+  "ReStreamLogsToFiles": false,
+  "MachineGroup": false,
+  "MachineGroupName": null,
+  "MachineGroupTags": null,
+  "MonitorSocketAddress": null,
+  "NotificationPipeName": null,
+  "NotificationSocketAddress": null,
+  "NoRestart": false,
+  "OverwriteAutoLogon": false,
+  "Pool": null,
+  "ProjectName": null,
+  "ProxyPassword": null,
+  "ProxyUserName": null,
+  "ProxyUrl": null,
+  "UseBasicAuthForProxy": false,
+  "Replace": false,
+  "RunAsAutoLogon": false,
+  "RunAsService": false,
+  "RunOnce": false,
+  "PreventServiceStart": false,
+  "SslCACert": null,
+  "SslClientCert": null,
+  "SslClientCertArchive": null,
+  "SslClientCertKey": null,
+  "SslClientCertPassword": null,
+  "SslSkipCertValidation": false,
+  "Url": null,
+  "WindowsLogonAccount": null,
+  "WindowsLogonPassword": null,
+  "Work": null,
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "ClientId": null,
+  "TenantId": null,
+  "ClientSecret": null,
+  "Help": false,
+  "Version": false
+}
+[2026-01-07 12:56:25Z INFO AgentProcess] Command line arguments parsed successfully - ready for command execution
+[2026-01-07 12:56:25Z VERB Agent] Entering Initialize
+[2026-01-07 12:56:25Z VERB AgentProcess] Delegating command execution to Agent service
+[2026-01-07 12:56:25Z VERB Agent] Entering ExecuteCommand
+[2026-01-07 12:56:25Z VERB Agent] Initializing core services...
+[2026-01-07 12:56:25Z VERB VstsAgentWebProxy] Entering Initialize
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 12:56:25Z INFO HostContext] Well known config file 'Proxy': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.proxy'
+[2026-01-07 12:56:25Z VERB VstsAgentWebProxy] Proxy address: 
+[2026-01-07 12:56:25Z INFO VstsAgentWebProxy] No proxy setting found.
+[2026-01-07 12:56:25Z VERB AgentCertificateManager] Entering Initialize
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 12:56:25Z INFO HostContext] Well known config file 'Certificates': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.certificates'
+[2026-01-07 12:56:25Z INFO AgentCertificateManager] No certificate setting found.
+[2026-01-07 12:56:25Z VERB ConfigurationManager] Entering Initialize
+[2026-01-07 12:56:25Z VERB ConfigurationManager] Creating _store
+[2026-01-07 12:56:25Z VERB ConfigurationStore] Entering Initialize
+[2026-01-07 12:56:25Z INFO ConfigurationStore] currentAssemblyLocation: {0}
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 12:56:25Z INFO ConfigurationStore] binPath: {0}
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 12:56:25Z INFO ConfigurationStore] RootFolder: {0}
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 12:56:25Z INFO HostContext] Well known config file 'Agent': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.agent'
+[2026-01-07 12:56:25Z INFO ConfigurationStore] ConfigFilePath: {0}
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 12:56:25Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials'
+[2026-01-07 12:56:25Z INFO ConfigurationStore] CredFilePath: {0}
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 12:56:25Z INFO HostContext] Well known config file 'Service': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.service'
+[2026-01-07 12:56:25Z INFO ConfigurationStore] ServiceConfigFilePath: {0}
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 12:56:25Z INFO HostContext] Well known config file 'Autologon': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.autologon'
+[2026-01-07 12:56:25Z INFO ConfigurationStore] AutoLogonSettingsFilePath: {0}
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 12:56:25Z INFO HostContext] Well known config file 'Options': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.options'
+[2026-01-07 12:56:25Z INFO ConfigurationStore] RuntimeOptionsFilePath: {0}
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 12:56:25Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.setup_info'
+[2026-01-07 12:56:25Z INFO ConfigurationStore] SetupInfoFilePath: {0}
+[2026-01-07 12:56:25Z VERB ConfigurationManager] store created
+[2026-01-07 12:56:25Z VERB LocationServer] Entering Initialize
+[2026-01-07 12:56:25Z INFO Terminal] WRITE LINE: 
+  ___                      ______ _            _ _
+ / _ \                     | ___ (_)          | (_)
+/ /_\ \_____   _ _ __ ___  | |_/ /_ _ __   ___| |_ _ __   ___  ___
+|  _  |_  / | | | '__/ _ \ |  __/| | '_ \ / _ \ | | '_ \ / _ \/ __|
+| | | |/ /| |_| | | |  __/ | |   | | |_) |  __/ | | | | |  __/\__ \
+\_| |_/___|\__,_|_|  \___| \_|   |_| .__/ \___|_|_|_| |_|\___||___/
+                                   | |
+        agent v4.266.2             |_|          (commit 8bd0453)
+
+[2026-01-07 12:56:25Z INFO ConfigurationManager] CheckAgentRootDirectorySecure
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 12:56:25Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 12:56:25Z INFO ConfigurationManager] Agent configuration initiated - OS: Windows, Architecture: X64, AgentVersion: 4.266.2
+[2026-01-07 12:56:25Z INFO ConfigurationStore] IsConfigured()
+[2026-01-07 12:56:25Z INFO ConfigurationStore] IsConfigured: False
+[2026-01-07 12:56:25Z INFO ConfigurationManager] Is configured: False
+[2026-01-07 12:56:25Z INFO CommandSettings] Flag 'usebasicauthforproxy': 'False'
+[2026-01-07 12:56:25Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2026-01-07 12:56:25Z INFO ConfigurationManager] Testing for min NET Framework version: '4.6'
+[2026-01-07 12:56:25Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2026-01-07 12:56:25Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2026-01-07 12:56:25Z INFO CommandSettings] Flag 'environment': 'False'
+[2026-01-07 12:56:25Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2026-01-07 12:56:25Z INFO CommandSettings] Flag 'environment': 'False'
+[2026-01-07 12:56:25Z INFO ConfigurationManager] Agent type determined from command - Type: 'BuildReleasesAgentConfiguration', IsDeploymentGroup: False, IsEnvironmentVM: False
+[2026-01-07 12:56:25Z VERB ExtensionManager] Entering Initialize
+[2026-01-07 12:56:25Z INFO ExtensionManager] Getting extensions for interface: '{0}'
+[2026-01-07 12:56:25Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2026-01-07 12:56:25Z VERB BuildReleasesAgentConfigProvider] Entering Initialize
+[2026-01-07 12:56:25Z VERB AgentServer] Entering Initialize
+[2026-01-07 12:56:25Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2026-01-07 12:56:25Z VERB DeploymentGroupAgentConfigProvider] Entering Initialize
+[2026-01-07 12:56:25Z VERB DeploymentGroupServer] Entering Initialize
+[2026-01-07 12:56:25Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2026-01-07 12:56:25Z VERB SharedDeploymentAgentConfigProvider] Entering Initialize
+[2026-01-07 12:56:25Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2026-01-07 12:56:25Z VERB EnvironmentVMResourceConfigProvider] Entering Initialize
+[2026-01-07 12:56:25Z VERB EnvironmentsServer] Entering Initialize
+[2026-01-07 12:56:25Z INFO ConfigurationManager] Configuration provider resolved - Provider: 'BuildReleasesAgentConfigProvider' for agent type: 'BuildReleasesAgentConfiguration'
+[2026-01-07 12:56:25Z INFO Terminal] WRITE LINE: 
+[2026-01-07 12:56:25Z INFO Terminal] WRITE LINE: >> Connect:
+[2026-01-07 12:56:25Z INFO Terminal] WRITE LINE: 
+[2026-01-07 12:56:25Z INFO CommandSettings] Arg 'url': ''
+[2026-01-07 12:56:25Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 12:56:25Z INFO PromptManager] ReadValue
+[2026-01-07 12:56:25Z INFO Terminal] WRITE: Enter server URL > 
+[2026-01-07 12:56:25Z INFO Terminal] READ LINE
+[2026-01-07 12:56:59Z INFO Terminal] Read value: 'https://dev.azure.com/sivareddyit24'
+[2026-01-07 12:56:59Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 12:56:59Z INFO ConfigurationManager] Server URL configured - URL: 'https://dev.azure.com/sivareddyit24', IsUnattended: False
+[2026-01-07 12:56:59Z INFO ConfigurationManager] GetCredentialProvider
+[2026-01-07 12:56:59Z VERB CredentialManager] Entering Initialize
+[2026-01-07 12:56:59Z INFO CommandSettings] Arg 'auth': ''
+[2026-01-07 12:56:59Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 12:56:59Z INFO PromptManager] ReadValue
+[2026-01-07 12:56:59Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2026-01-07 12:56:59Z INFO Terminal] READ LINE
+[2026-01-07 12:57:08Z INFO Terminal] Read value: 'C3ZrluPdYhUoxvpvyQHQgXHXnOVP1TuYzdWVlRiT522jLxbtM8gYJQQJ99CAACAAAAAAAAAAAAASAZDO4Ll1'
+[2026-01-07 12:57:08Z INFO PromptManager] Invalid value.
+[2026-01-07 12:57:08Z INFO Terminal] WRITE LINE: Enter a valid value for authentication type.
+[2026-01-07 12:57:08Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2026-01-07 12:57:08Z INFO Terminal] READ LINE
+[2026-01-07 12:57:27Z INFO Terminal] Read value: 'PAT'
+[2026-01-07 12:57:27Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2026-01-07 12:57:27Z INFO CredentialManager] GetCredentialProvider
+[2026-01-07 12:57:27Z INFO CredentialManager] Creating type PAT
+[2026-01-07 12:57:27Z INFO CredentialManager] Creating credential type: PAT
+[2026-01-07 12:57:27Z VERB CredentialManager] Created credential type
+[2026-01-07 12:57:27Z INFO PersonalAccessToken] EnsureCredential
+[2026-01-07 12:57:27Z INFO CommandSettings] Arg 'token': ''
+[2026-01-07 12:57:27Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 12:57:27Z INFO PromptManager] ReadValue
+[2026-01-07 12:57:27Z INFO Terminal] WRITE: Enter personal access token > 
+[2026-01-07 12:57:27Z INFO Terminal] READ SECRET
+[2026-01-07 12:57:29Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2026-01-07 12:57:29Z INFO Terminal] Read value: '***'
+[2026-01-07 12:57:29Z INFO ConfigurationManager] cred retrieved
+[2026-01-07 12:57:29Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2026-01-07 12:57:29Z INFO PersonalAccessToken] GetVssCredentials
+[2026-01-07 12:57:29Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2026-01-07 12:57:29Z INFO PersonalAccessToken] cred created
+[2026-01-07 12:57:29Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 12:57:29Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 12:57:29Z VERB VisualStudioServices] Created Basic issued token provider instance 18475057 (Basic)
+[2026-01-07 12:57:30Z VERB VisualStudioServices] Basic issued token provider instance 18475057 validated token instance 14678165
+[2026-01-07 12:57:30Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 12:57:30Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 12:57:30Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 12:57:30Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 12:57:31Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 12:57:31Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 12:57:31Z INFO ConfigurationManager] Server type detection completed - IsHostedServer: True
+[2026-01-07 12:57:31Z INFO PersonalAccessToken] GetVssCredentials
+[2026-01-07 12:57:31Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2026-01-07 12:57:31Z INFO PersonalAccessToken] cred created
+[2026-01-07 12:57:31Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2026-01-07 12:57:31Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2026-01-07 12:57:31Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 12:57:31Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 12:57:31Z VERB VisualStudioServices] Created Basic issued token provider instance 56563595 (Basic)
+[2026-01-07 12:57:31Z VERB VisualStudioServices] Basic issued token provider instance 56563595 validated token instance 20536214
+[2026-01-07 12:57:31Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 12:57:31Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 12:57:31Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2026-01-07 12:57:31Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 12:57:31Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 12:57:31Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2026-01-07 12:57:31Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2026-01-07 12:57:31Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData
+[2026-01-07 12:57:32Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 12:57:32Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 12:57:32Z VERB VisualStudioServices] Finished GET request to https://dev.azure.com/sivareddyit24/_apis/connectionData with status code 200
+[2026-01-07 12:57:32Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2026-01-07 12:57:32Z INFO ConfigurationManager] Test Connection complete.
+[2026-01-07 12:57:32Z VERB RSAEncryptedFileKeyManager] Entering Initialize
+[2026-01-07 12:57:32Z INFO HostContext] Well known directory 'Bin': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\bin'
+[2026-01-07 12:57:32Z INFO HostContext] Well known directory 'Root': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent'
+[2026-01-07 12:57:32Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials_rsaparams'
+[2026-01-07 12:57:32Z INFO RSAEncryptedFileKeyManager] Creating new RSA key using 2048-bit key length
+[2026-01-07 12:57:32Z INFO RSAEncryptedFileKeyManager] Successfully saved RSA key parameters to file C:\Users\G.SIVAREDDY\Desktop\AzureDevopsProject\php-mysql-crud\agent\.credentials_rsaparams
+[2026-01-07 12:57:32Z INFO Terminal] WRITE LINE: 
+[2026-01-07 12:57:32Z INFO Terminal] WRITE LINE: >> Register Agent:
+[2026-01-07 12:57:32Z INFO Terminal] WRITE LINE: 
+[2026-01-07 12:57:32Z INFO CommandSettings] Arg 'pool': ''
+[2026-01-07 12:57:32Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 12:57:32Z INFO PromptManager] ReadValue
+[2026-01-07 12:57:32Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2026-01-07 12:57:32Z INFO Terminal] READ LINE
+[2026-01-07 12:57:43Z INFO Terminal] Read value: 'self-hosted'
+[2026-01-07 12:57:43Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools
+[2026-01-07 12:57:43Z WARN VisualStudioServices] Authentication failed with status code 401.
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodcin2.visualstudio.com/"
+X-TFS-ProcessId: 423bd84c-59ed-4d09-8f3c-917881c42d0b
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 73f3b029-5180-484e-9fc4-e7af76324ca2
+X-TFS-Session: 37022785-5070-47cd-9498-7a3a92d648b1
+X-VSS-E2EID: b1adc317-0908-4dfa-97a0-cd4269905a02
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 15868C8CAD0D4F6FB1980C20014CB6FD Ref B: MAA201060514037 Ref C: 2026-01-07T12:57:43Z
+Date: Wed, 07 Jan 2026 12:57:42 GMT
+
+[2026-01-07 12:57:43Z VERB VisualStudioServices] Basic issued token provider instance 56563595 invalidated token instance 20536214
+[2026-01-07 12:57:43Z WARN VisualStudioServices] Basic issued token provider instance 56563595 requires an interactive prompt which is not allowed by the current settings
+[2026-01-07 12:57:43Z ERR  VisualStudioServices] GET request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools is not authorized. Details: VS30063: You are not authorized to access https://dev.azure.com.
+[2026-01-07 12:57:43Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 12:57:43Z ERR  Terminal] WRITE ERROR (exception):
+[2026-01-07 12:57:43Z ERR  Terminal] Microsoft.VisualStudio.Services.Common.VssUnauthorizedException: VS30063: You are not authorized to access https://dev.azure.com.
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider.GetPoolIdAndName(AgentSettings agentSettings, CommandSettings command) in D:\a\_work\1\s\src\Agent.Listener\Configuration\ConfigurationProvider.cs:line 83
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in D:\a\_work\1\s\src\Agent.Listener\Configuration\ConfigurationManager.cs:line 232
+[2026-01-07 12:57:43Z ERR  Terminal] WRITE ERROR: Failed to find pool name. Try again or ctrl-c to quit
+[2026-01-07 12:57:43Z INFO CommandSettings] Arg 'pool': ''
+[2026-01-07 12:57:43Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 12:57:43Z INFO PromptManager] ReadValue
+[2026-01-07 12:57:43Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2026-01-07 12:57:43Z INFO Terminal] READ LINE
+[2026-01-07 12:58:46Z INFO Terminal] Read value: 'self-hosted'
+[2026-01-07 12:58:46Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools
+[2026-01-07 12:58:47Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodcin2.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 423bd84c-59ed-4d09-8f3c-917881c42d0b
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 73f3d97a-5180-484e-9fc4-e7af76324ca2
+X-TFS-Session: 37022785-5070-47cd-9498-7a3a92d648b1
+X-VSS-E2EID: e3300669-011d-4873-977e-200e4e05d35f
+X-VSS-SenderDeploymentId: aa671e66-2da2-b247-ea94-ede72b24f5c9
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcin2.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/sivareddyit24/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/sivareddyit24/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fsivareddyit24%2F_apis%2Fdistributedtask%2Fpools%3FpoolName%3Dself-hosted%26poolType%3DAutomation&redirect=1&hid=9f5aee28-3dcc-4219-a2b5-7da965f7a6e5&context=eyJodCI6MiwiaGlkIjoiMTljYjRkOGUtNGUxNC00ODhiLTkwMzMtMWFhYWQ0ZmE0MmQwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90&lltid=c9ff8a36-02a1-4f17-a61c-296587085069#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:5123a874-15d5-4ee8-bd3f-81c7fb764bd6
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: D4CF207D9DA24A71A82C239A2717F44C Ref B: MAA201060516017 Ref C: 2026-01-07T12:58:47Z
+Date: Wed, 07 Jan 2026 12:58:46 GMT
+
+[2026-01-07 12:58:47Z WARN VisualStudioServices] Basic issued token provider instance 56563595 requires an interactive prompt which is not allowed by the current settings
+[2026-01-07 12:58:47Z ERR  VisualStudioServices] GET request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools is not authorized. Details: VS30063: You are not authorized to access https://dev.azure.com.
+[2026-01-07 12:58:47Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 12:58:47Z ERR  Terminal] WRITE ERROR (exception):
+[2026-01-07 12:58:47Z ERR  Terminal] Microsoft.VisualStudio.Services.Common.VssUnauthorizedException: VS30063: You are not authorized to access https://dev.azure.com.
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider.GetPoolIdAndName(AgentSettings agentSettings, CommandSettings command) in D:\a\_work\1\s\src\Agent.Listener\Configuration\ConfigurationProvider.cs:line 83
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in D:\a\_work\1\s\src\Agent.Listener\Configuration\ConfigurationManager.cs:line 232
+[2026-01-07 12:58:47Z ERR  Terminal] WRITE ERROR: Failed to find pool name. Try again or ctrl-c to quit
+[2026-01-07 12:58:47Z INFO CommandSettings] Arg 'pool': ''
+[2026-01-07 12:58:47Z INFO CommandSettings] Flag 'unattended': 'False'
+[2026-01-07 12:58:47Z INFO PromptManager] ReadValue
+[2026-01-07 12:58:47Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2026-01-07 12:58:47Z INFO Terminal] READ LINE
+[2026-01-07 13:02:43Z INFO Terminal] Read value: ''
+[2026-01-07 13:02:43Z INFO PromptManager] Falling back to the default: 'default'
+[2026-01-07 13:02:43Z VERB VisualStudioServices] Started GET request to https://dev.azure.com/sivareddyit24/_apis/distributedtask/pools
+[2026-01-07 13:02:43Z INFO Terminal] WRITE LINE: Exiting...
