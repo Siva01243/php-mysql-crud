@@ -1,11 +1,13 @@
 <?php
-session_start();
+$servername=getenv('DB_HOST')?:'localhost';
+$username=getenv('DB_USER')?:'root';
+$password=getenv('DB_PASS')?:'';
+$dbname=getenv('DB_NAME')?;'test';
 
-$conn = mysqli_connect(
-  'localhost',
-  'root',
-  'password123',
-  'php_mysql_crud'
-) or die(mysqli_erro($mysqli));
-
+$conn=new mysqli($servername, $username, $password, $dbname);
+if($conn->connect_error){
+  die("connection failed:" .$conn->connect_error);
+}
 ?>
+
+
