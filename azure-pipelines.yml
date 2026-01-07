@@ -3,7 +3,7 @@ trigger:
 - master
 
 pool:
-  vmImage: self-hosted
+  vmImage: Default
 
 steps:
 # Step 1: Checkout source code
