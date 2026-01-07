@@ -1,0 +1,35 @@
+trigger:
+- main
+- master
+
+pool:
+  name: self-hosted
+
+steps:
+# Step 1: Checkout source code
+- checkout: self
+
+# Step 2: Archive PHP application
+- task: ArchiveFiles@2
+  displayName: 'Archive PHP MySQL CRUD App'
+  inputs:
+    rootFolderOrFile: '$(Build.SourcesDirectory)'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/php-mysql-crud.zip'
+    replaceExistingArchive: true
+
+# Step 3: Publish build artifact
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact'
+  inputs:
+    pathToPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: 'drop'
+
+# Step 4: Deploy to Azure App Service
+- task: AzureWebApp@1
+  displayName: 'Deploy PHP App to Azure App Service'
+  inputs:
+    azureSubscription: 'azure-rm-connection'  # Service connection you created in Azure DevOps
+    appName: 'php-mysql-app'                        # Name of your App Service
+    package: '$(Build.ArtifactStagingDirectory)/php-mysql-crud.zip'
