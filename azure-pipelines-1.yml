@@ -3,33 +3,27 @@ trigger:
 - master
 
 pool:
-  name: self-hosted
+  vmImage: 'ubuntu-latest'   # Use Azure-hosted agent for reliable network
 
 steps:
 # Step 1: Checkout source code
 - checkout: self
+  displayName: 'Checkout Code'
 
-# Step 2: Archive PHP application
-- task: ArchiveFiles@2
-  displayName: 'Archive PHP MySQL CRUD App'
+# Step 2: Install PHP dependencies (if using Composer)
+- task: Bash@3
+  displayName: 'Install PHP Dependencies'
   inputs:
-    rootFolderOrFile: '$(Build.SourcesDirectory)'
-    includeRootFolder: false
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/php-mysql-crud.zip'
-    replaceExistingArchive: true
+    targetType: 'inline'
+    script: |
+      if [ -f composer.json ]; then
+        composer install --no-dev --optimize-autoloader
+      fi
 
-# Step 3: Publish build artifact
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact'
-  inputs:
-    pathToPublish: '$(Build.ArtifactStagingDirectory)'
-    artifactName: 'drop'
-
-# Step 4: Deploy to Azure App Service
+# Step 3: Deploy PHP App directly to Azure App Service
 - task: AzureWebApp@1
   displayName: 'Deploy PHP App to Azure App Service'
   inputs:
-    azureSubscription: 'azure-rm-connection'  # Service connection you created in Azure DevOps
-    appName: 'php-mysql-app'                        # Name of your App Service
-    package: '$(Build.ArtifactStagingDirectory)/php-mysql-crud.zip'
+    azureSubscription: 'azure-rm-connection'   # Your service connection
+    appName: 'php-mysql-app'                    # Your Azure App Service name
+    package: '$(Build.SourcesDirectory)'        # Deploy directly from repo folder
