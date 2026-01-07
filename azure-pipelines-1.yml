@@ -3,27 +3,30 @@ trigger:
 - master
 
 pool:
-  name: self-hosted   # Keep your self-hosted agent
+  name: self-hosted   # Windows agent
 
 steps:
-# Step 1: Checkout source code
+# Step 1: Checkout code
 - checkout: self
   displayName: 'Checkout Code'
 
-# Step 2: Install PHP dependencies (if using Composer)
-- task: Bash@3
+# Step 2: Install PHP dependencies (PowerShell for Windows)
+- task: PowerShell@2
   displayName: 'Install PHP Dependencies'
   inputs:
     targetType: 'inline'
     script: |
-      if [ -f composer.json ]; then
-        composer install --no-dev --optimize-autoloader
-      fi
+      if (Test-Path "composer.json") {
+          Write-Host "Installing PHP dependencies..."
+          composer install --no-dev --optimize-autoloader
+      } else {
+          Write-Host "No composer.json found, skipping dependency installation."
+      }
 
 # Step 3: Deploy PHP App directly to Azure App Service
 - task: AzureWebApp@1
   displayName: 'Deploy PHP App to Azure App Service'
   inputs:
-    azureSubscription: 'azure-rm-connection'   # Your Azure service connection
-    appName: 'php-mysql-app'                   # Your Azure App Service name
-    package: '$(Build.SourcesDirectory)'       # Deploy directly from source folder
+    azureSubscription: 'azure-rm-connection'
+    appName: 'php-mysql-app'
+    package: '$(Build.SourcesDirectory)'
