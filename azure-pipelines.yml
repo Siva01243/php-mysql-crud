@@ -1,0 +1,27 @@
+trigger:
+- main
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+# Step 1: Checkout source code
+- checkout: self
+
+# Step 2: Archive PHP application
+- task: ArchiveFiles@2
+  displayName: 'Archive PHP MySQL CRUD App'
+  inputs:
+    rootFolderOrFile: '$(Build.SourcesDirectory)'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/php-mysql-crud.zip'
+    replaceExistingArchive: true
+
+# Step 3: Publish build artifact
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact'
+  inputs:
+    pathToPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: 'drop'
