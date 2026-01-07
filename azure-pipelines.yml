@@ -1,0 +1,60 @@
+trigger:
+  branches:
+    include:
+      - main
+ 
+pool:
+  vmImage: ubuntu-latest
+ 
+variables:
+  artifactName: php-app
+  phpVersion: '8.2'
+  azureSubscription: 'azure-rm-connection'
+  webAppName: ''
+  resourceGroup: ''
+  DB_HOST: ''
+  DB_USER: ''
+  DB_PASS: ''
+  DB_NAME: ''
+  DB_PORT: '3306'
+ 
+steps:
+- checkout: self
+  persistCredentials: true
+ 
+- script: |
+    sudo apt-get update
+    sudo apt-get install -y zip curl php php-cli php-mbstring php-xml php-curl php-mysql
+    curl -sS https://getcomposer.org/installer -o composer-setup.php
+    php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+    if [ -f composer.json ]; then composer install --no-interaction --prefer-dist; fi
+  displayName: Install PHP and Composer
+ 
+- script: |
+    mkdir -p $(Build.ArtifactStagingDirectory)
+    zip -r $(Build.ArtifactStagingDirectory)/$(artifactName).zip . -x "*.git*" -x "azure/pipelines/*"
+  displayName: Package application
+ 
+- publish: $(Build.ArtifactStagingDirectory)/$(artifactName).zip
+  artifact: drop
+ 
+- task: AzureAppServiceSettings@1
+  displayName: Configure App Settings
+  inputs:
+    azureSubscription: $(azureSubscription)
+    appName: $(webAppName)
+    appSettings: |
+      [
+        {"name": "DB_HOST", "value": "$(DB_HOST)", "slotSetting": false},
+        {"name": "DB_USER", "value": "$(DB_USER)", "slotSetting": false},
+        {"name": "DB_PASS", "value": "$(DB_PASS)", "slotSetting": false},
+        {"name": "DB_NAME", "value": "$(DB_NAME)", "slotSetting": false},
+        {"name": "DB_PORT", "value": "$(DB_PORT)", "slotSetting": false}
+      ]
+ 
+- task: AzureWebApp@1
+  displayName: Deploy to Azure Web App
+  inputs:
+    azureSubscription: $(azureSubscription)
+    appName: $(webAppName)
+    package: $(Pipeline.Workspace)/drop/$(artifactName).zip
