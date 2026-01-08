@@ -49,3 +49,185 @@ stages:
               appType: 'webAppLinux'
               appName: 'php-mysql-app'
               package: '$(Pipeline.Workspace)/drop/phpapp.zip'
+
+
+# ------------------------------------------------------------
+# CI/CD: PHP + MySQL CRUD (FaztWeb/php-mysql-crud) → Azure Web App (Linux)
+# Stages: Build & Test → Deploy
+# Security: no secrets in YAML; use Variable Groups & Service Connections
+# ------------------------------------------------------------
+
+trigger:
+  branches:
+    include:
+      - main
+      - master   # if repo uses 'master', keep both
+
+pool:
+  vmImage: 'ubuntu-latest'   # App Service PHP runs on Linux; use Linux agents for consistency
+
+# Pull source directly from GitHub via service connection
+resources:
+  repositories:
+    - repository: phpcrud
+      type: github
+      name: FaztWeb/php-mysql-crud
+      endpoint: GitHubServiceConnection   # create this in Project Settings → Service connections
+
+variables:
+  artifactName: 'php-mysql-crud'
+  packageFile: 'php-mysql-crud.zip'
+  webAppName: 'php-mysql-app'       # Azure Web App (Linux)
+  resourceGroup: 'PHPAppRG'     # <-- set the RG hosting php-mysql-app
+  mysqlHost: 'php-mysql-db.mysql.database.azure.com'
+  mysqlDb: 'php_mysql_crud'
+
+stages:
+# =========================
+# Stage 1: Build & Test
+# =========================
+- stage: Build_Test
+  displayName: 'Build & Test'
+  jobs:
+  - job: build
+    displayName: 'Lint, Test, Package'
+    steps:
+    - checkout: phpcrud
+      clean: true
+      persistCredentials: true
+      displayName: 'Checkout GitHub: FaztWeb/php-mysql-crud'
+
+    - script: |
+        sudo apt-get update
+        sudo apt-get install -y php-cli php-zip zip unzip
+        php -v
+      displayName: 'Install PHP CLI + ZIP utilities'
+
+    # Optional Composer install if composer.json exists
+    - bash: |
+        if [ -f "composer.json" ]; then
+          echo "composer.json found — downloading Composer and installing deps"
+          EXPECTED_SIGNATURE=$(wget -q -O - https://composer.github.io/installer.sig)
+          php -r "copy('https://getcomposer.org/installer','composer-setup.php');"
+          ACTUAL_SIGNATURE=$(php -r "echo hash_file('sha384','composer-setup.php');")
+          if [ "$EXPECTED_SIGNATURE" != "$ACTUAL_SIGNATURE" ]; then
+            >&2 echo 'ERROR: Invalid composer installer signature'
+            rm composer-setup.php
+            exit 1
+          fi
+          php composer-setup.php --quiet
+          rm composer-setup.php
+          php composer.phar install --no-interaction --no-progress --prefer-dist
+        else
+          echo "No composer.json — skipping Composer step"
+        fi
+      displayName: 'Install Composer deps (conditional)'
+
+    # Basic tests:
+    # 1) Syntax linting across all PHP files.
+    # 2) If phpunit is available (vendor/bin/phpunit or phpunit.xml), run it.
+    - bash: |
+        set -e
+        echo "Running PHP syntax lint"
+        find . -type f -name "*.php" -print0 | xargs -0 -I{} php -l "{}" | tee php_lint_report.txt
+
+        echo "Checking for PHPUnit..."
+        if [ -f "vendor/bin/phpunit" ]; then
+          echo "Running PHPUnit from vendor/bin/phpunit"
+          vendor/bin/phpunit --no-interaction --colors=always
+        elif [ -f "phpunit.xml" ] || [ -f "phpunit.xml.dist" ]; then
+          if command -v phpunit >/dev/null 2>&1; then
+            echo "Running global phpunit"
+            phpunit --no-interaction --colors=always
+          else
+            echo "phpunit.xml present but phpunit not installed; skipping unit tests"
+          fi
+        else
+          echo "No PHPUnit configuration; syntax lint only"
+        fi
+      displayName: 'Run tests (lint + phpunit if present)'
+
+    # Package ZIP for ZIP Deploy (exclude unneeded files)
+    - bash: |
+        set -e
+        echo "Creating .zipignore for lean package"
+        cat > .zipignore <<'EOF'
+        .git/
+        .github/
+        .azure-pipelines/
+        tests/
+        node_modules/
+        *.log
+        .DS_Store
+        EOF
+
+        EXCLUDES=$(sed 's/^/-x /' .zipignore | tr '\n' ' ')
+        echo "Excludes: ${EXCLUDES}"
+        eval "zip -r '${packageFile}' . ${EXCLUDES}"
+        ls -lh "${packageFile}"
+      displayName: 'Archive site → $(packageFile)'
+
+    - publish: '$(packageFile)'
+      displayName: 'Publish pipeline artifact'
+      artifact: '$(artifactName)'
+
+# =========================
+# Stage 2: Deploy to Azure
+# =========================
+- stage: Deploy
+  displayName: 'Deploy to Azure Web App'
+  dependsOn: Build_Test
+  jobs:
+  - deployment: deploy_to_webapp
+    displayName: 'Deploy ZIP to Azure Web App (Linux)'
+    environment: 'prod'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - download: current
+            artifact: '$(artifactName)'
+            displayName: 'Download build artifact'
+
+          # Configure App Settings securely (no secrets in YAML)
+          - task: AzureCLI@2
+            displayName: 'Set App Settings (DB host/name, SSL mode)'
+            inputs:
+              azureSubscription: 'ad0e932c-86b7-48d6-b078-ca4a63236c93'               # <-- your ARM service connection
+              scriptType: bash
+              scriptLocation: inlineScript
+              inlineScript: |
+                az webapp config appsettings set \
+                  --name "$(webAppName)" \
+                  --resource-group "$(resourceGroup)" \
+                  --settings \
+                  DB_HOST="$(mysqlHost)" \
+                  DB_NAME="$(mysqlDb)" \
+                  MYSQL_SSL_MODE="$(MYSQL_SSL_MODE)"
+
+                # Inject secrets from variable group at runtime (do not echo values)
+                az webapp config appsettings set \
+                  --name "$(webAppName)" \
+                  --resource-group "$(resourceGroup)" \
+                  --settings \
+                  DB_USER="$(DB_USER)" \
+                  DB_PASSWORD="$(DB_PASSWORD)"
+            # NOTE: Values are redacted in CLI output; App Service restarts to apply settings.
+
+          # Deploy ZIP to Web App (Linux)
+          - task: AzureWebApp@1
+            displayName: 'ZIP Deploy to $(webAppName)'
+            inputs:
+              azureSubscription: 'ad0e932c-86b7-48d6-b078-ca4a63236c93'
+              appType: 'webAppLinux'
+              appName: '$(webAppName)'
+              package: '$(Pipeline.Workspace)/$(artifactName)/$(packageFile)'
+
+          # Simple smoke test (HTTP HEAD) to ensure site responds
+          - bash: |
+              set -e
+              URL="https://$(webAppName).azurewebsites.net"
+              echo "Running smoke test: $URL"
+              curl -I --retry 6 --retry-delay 5 "$URL"
+            displayName: 'Smoke test'
+
