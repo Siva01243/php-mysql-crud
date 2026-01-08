@@ -3,30 +3,34 @@ trigger:
 - master
 
 pool:
-  name: self-hosted   # Windows agent
+  name: self-hosted
 
 steps:
-# Step 1: Checkout code
+# Step 1: Checkout source code
 - checkout: self
-  displayName: 'Checkout Code'
 
-# Step 2: Install PHP dependencies (PowerShell for Windows)
-- task: PowerShell@2
-  displayName: 'Install PHP Dependencies'
+# Step 2: Archive PHP application
+- task: ArchiveFiles@2
+  displayName: 'Archive PHP MySQL CRUD App'
   inputs:
-    targetType: 'inline'
-    script: |
-      if (Test-Path "composer.json") {
-          Write-Host "Installing PHP dependencies..."
-          composer install --no-dev --optimize-autoloader
-      } else {
-          Write-Host "No composer.json found, skipping dependency installation."
-      }
+    rootFolderOrFile: '$(Build.SourcesDirectory)'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/php-mysql-crud.zip'
+    replaceExistingArchive: true
 
-# Step 3: Deploy PHP App directly to Azure App Service
+# Step 3: Publish build artifact
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact'
+  inputs:
+    pathToPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: 'drop'
+
+# Step 4: Deploy to Azure App Service
 - task: AzureWebApp@1
   displayName: 'Deploy PHP App to Azure App Service'
   inputs:
-    azureSubscription: 'azure-rm-connection'
-    appName: 'php-mysql-app'
-    package: '$(Build.SourcesDirectory)'
+    azureSubscription: 'azure-rm-connection'  # Service connection you created in Azure DevOps
+    appName: 'php-mysql-app'                        # Name of your App Service
+    package: '$(Build.ArtifactStagingDirectory)/php-mysql-crud.zip'
+
