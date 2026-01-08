@@ -45,7 +45,7 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Deploy to Azure App Service'
             inputs:
-              azureSubscription: '<Azure-Service-Connection-Name>'
+              azureSubscription: 'php-mysql-app-hmb4g5btg6c6ceb4.centralindia-01.azurewebsites.net'
               appType: 'webAppLinux'
-              appName: '<your-app-service-name>'
+              appName: 'php-mysql-app'
               package: '$(Pipeline.Workspace)/drop/phpapp.zip'
