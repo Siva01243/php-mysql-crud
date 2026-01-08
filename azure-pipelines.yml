@@ -1,27 +1,51 @@
 trigger:
-- main
-- master
-
+  branches:
+    include:
+      - master
+ 
 pool:
-  name: self-hosted
-
-steps:
-# Step 1: Checkout source code
-- checkout: self
-
-# Step 2: Archive PHP application
-- task: ArchiveFiles@2
-  displayName: 'Archive PHP MySQL CRUD App'
-  inputs:
-    rootFolderOrFile: '$(Build.SourcesDirectory)'
-    includeRootFolder: false
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/php-mysql-crud.zip'
-    replaceExistingArchive: true
-
-# Step 3: Publish build artifact
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact'
-  inputs:
-    pathToPublish: '$(Build.ArtifactStagingDirectory)'
-    artifactName: 'drop'
+  vmImage: ubuntu-latest
+ 
+variables:
+  phpVersion: '8.1'
+ 
+stages:
+- stage: Build
+  displayName: Build Stage
+  jobs:
+  - job: BuildJob
+    steps:
+    - checkout: self
+ 
+    - task: ArchiveFiles@2
+      displayName: 'Archive PHP Application'
+      inputs:
+        rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
+        includeRootFolder: false
+        archiveType: 'zip'
+        archiveFile: '$(Build.ArtifactStagingDirectory)/phpapp.zip'
+        replaceExistingArchive: true
+ 
+    - publish: '$(Build.ArtifactStagingDirectory)/phpapp.zip'
+      artifact: drop
+ 
+- stage: Deploy
+  displayName: Deploy to Azure App Service
+  dependsOn: Build
+  jobs:
+  - deployment: DeployJob
+    environment: 'dev'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - download: current
+            artifact: drop
+ 
+          - task: AzureWebApp@1
+            displayName: 'Deploy to Azure App Service'
+            inputs:
+              azureSubscription: '<Azure-Service-Connection-Name>'
+              appType: 'webAppLinux'
+              appName: '<your-app-service-name>'
+              package: '$(Pipeline.Workspace)/drop/phpapp.zip'
